@@ -1,28 +1,22 @@
 {
-  "CASHCAT": {
-    "url": "https://hyperacademy.io/api/hl/markets/cashcat-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
-    "note": "no checkpoint values",
-    "payload_type": "dict",
-    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'cashcat-perp', 'type': 'perp', 'coin': 'CASHCAT', 'name': 'CASHCAT Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2026-07-11T00:00:00.000Z', 'price': 0.19828, 'funding': None, 'openInterestUsd': None, 'volumeBase': 121422955}, {'time': '2026-07-12T00:00:00.000Z', 'price': 0.1502, 'funding': None, 'openInterestUsd': None"
-  },
   "USELESS": {
-    "url": "https://hyperacademy.io/api/hl/markets/useless-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
-    "note": "no checkpoint values",
-    "payload_type": "dict",
-    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'useless-perp', 'type': 'perp', 'coin': 'USELESS', 'name': 'USELESS Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2026-09-08T00:00:00.000Z', 'price': 0.28489, 'funding': None, 'openInterestUsd': None, 'volumeBase': 20541353}, {'time': '2026-09-09T00:00:00.000Z', 'price': 0.22518, 'funding': None, 'openInterestUsd': None"
+    "url": "https://hyperacademy.io/api/hl/markets/useless-perp/history?format=json&from=2025-09-01&to=2026-10-01&granularity=daily",
+    "note": "no checkpoint values"
+  },
+  "CASHCAT": {
+    "url": "https://hyperacademy.io/api/hl/markets/cashcat-perp/history?format=json&from=2025-09-01&to=2026-10-01&granularity=daily",
+    "note": "no checkpoint values"
   },
   "GRAM": {
-    "url": "https://hyperacademy.io/api/hl/markets/gram-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
-    "note": "no checkpoint values",
-    "payload_type": "dict",
-    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'gram-perp', 'type': 'perp', 'coin': 'GRAM', 'name': 'GRAM Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2026-07-02T00:00:00.000Z', 'price': 1.671, 'funding': None, 'openInterestUsd': None, 'volumeBase': 8324557}, {'time': '2026-07-03T00:00:00.000Z', 'price': 1.6927, 'funding': None, 'openInterestUsd': None, 'volumeBase"
+    "url": "https://hyperacademy.io/api/hl/markets/gram-perp/history?format=json&from=2025-09-01&to=2026-10-01&granularity=daily",
+    "note": "no checkpoint values"
   },
   "FLOKI": {
-    "url": "https://hyperacademy.io/api/hl/markets/floki-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
-    "error": "HTTPError('404 Client Error: Not Found for url: https://hyperacademy.io/api/hl/markets/floki-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily')"
+    "url": "https://hyperacademy.io/api/hl/markets/floki-perp/history?format=json&from=2025-09-01&to=2026-10-01&granularity=daily",
+    "error": "HTTPError('404 Client Error: Not Found for url: https://hyperacademy.io/api/hl/markets/floki-perp/history?format=json&from=2025-09-01&to=2026-10-01&granularity=daily')"
   },
   "LUNC": {
-    "url": "https://hyperacademy.io/api/hl/markets/lunc-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
-    "error": "HTTPError('404 Client Error: Not Found for url: https://hyperacademy.io/api/hl/markets/lunc-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily')"
+    "url": "https://hyperacademy.io/api/hl/markets/lunc-perp/history?format=json&from=2025-09-01&to=2026-10-01&granularity=daily",
+    "error": "HTTPError('404 Client Error: Not Found for url: https://hyperacademy.io/api/hl/markets/lunc-perp/history?format=json&from=2025-09-01&to=2026-10-01&granularity=daily')"
   }
 }
