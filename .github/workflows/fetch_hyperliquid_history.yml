@@ -17,7 +17,8 @@ jobs:
       - name: Fetch historical data
         run: |
           cat > fetch_history.py <<'PY'
-          import requests, csv, json, time
+          import requests, csv, json
+          from concurrent.futures import ThreadPoolExecutor, as_completed
           from datetime import datetime, timezone
 
           symbols = '''BTC ETH HYPE ZEC SOL NEAR XRP ENA LTC SUI LINK UNI DOGE PEPE AAVE ADA BNB MON ONDO XPL LIT PUMP TAO XMR ARB WLD AVAX TRUMP BCH ASTER WLFI CRV JUP PENGU LDO XLM PENDLE BONK PAXG WIF VIRTUAL OP TRX FIL KAITO PONS ZRO FARTCOIN ICP STRK HBAR SHIB VVV USELESS CASHCAT MORPHO APT DOT SEI POL EIGEN MEGA ZK BERA CHIP GRAM AXS TIA JTO CC PYTH ATOM ZEN LINEA PROVE INJ ETC RENDER ETHFI DASH SPX SKY STBL POPCAT MOODENG S AVNT ZORA AERO AR GRASS MET 2Z CAKE SYRUP STX DYM MNT AZTEC ALGO APEX ENS APE STABLE FLOKI BIO IO 0G HMSTR DYDX CFX BLUR ORDI NOT NIL FET SAGA COMP SKR KAS ACE RUNE POLYX INIT PNUT SAND MELANIA BOME FOGO SUSHI SNX W TRB REZ GALA HEMI YGG IMX PEOPLE ME UMA MERL MANTA GMX NXPC ANIME HYPER LAYER GMT MOVE TNSR XAI MINA GOAT ZETA GAS RSR SUPER CELO NEO IOTA USUAL BRETT ALT BIGTIME AIXBT TURBO BABY NEIRO RESOLV GRIFFAIN LUNC WCT PURR BSV SOPH MEME BANANA'''.split()
@@ -41,54 +42,59 @@ jobs:
           def extract(payload):
             if isinstance(payload, dict):
               for k in ('data','history','rows','candles','prices','items','result'):
-                if isinstance(payload.get(k), list): payload=payload[k]; break
+                if isinstance(payload.get(k), list):
+                  payload=payload[k]; break
             if not isinstance(payload, list): return {}
             out={}
             for item in payload:
               if isinstance(item, dict):
-                d=None; p=None
+                d=p=None
                 for k in ('date','day','time','timestamp','t','open_time','startTime'):
-                  if k in item: d=normalize_date(item[k]); break
+                  if k in item:
+                    d=normalize_date(item[k]); break
                 for k in ('close','c','price','value','px'):
                   if k in item:
                     try: p=float(item[k])
-                    except: pass
+                    except: p=None
                     break
                 if d and p is not None: out[d]=p
-              elif isinstance(item, (list,tuple)) and len(item)>=2:
+              elif isinstance(item,(list,tuple)) and len(item)>=2:
                 d=normalize_date(item[0])
-                try: p=float(item[-1] if len(item)>=5 else item[1])
-                except: continue
-                if d: out[d]=p
+                vals=[]
+                for x in item[1:]:
+                  try: vals.append(float(x))
+                  except: pass
+                if d and vals:
+                  out[d]=vals[3] if len(vals)>=4 else vals[-1]
             return out
-          headers=['Symbol']
-          for d,_,__ in checkpoints:
-            headers += [f'{d} Daily close', f'{d} 1W %', f'{d} 1M %']
-          errors={}
-          rows=[]
-          sample=None
-          sess=requests.Session(); sess.headers['User-Agent']='Mozilla/5.0'
-          for i,sym in enumerate(symbols):
-            slug=slug_map.get(sym, sym.lower())
+          def fetch_one(sym):
+            slug=slug_map.get(sym,sym.lower())
             url=f'https://hyperacademy.io/api/hl/markets/{slug}-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily'
             try:
-              r=sess.get(url,timeout=30); r.raise_for_status(); payload=r.json()
-              if sample is None: sample=payload
-              prices=extract(payload)
+              r=requests.get(url,headers={'User-Agent':'Mozilla/5.0'},timeout=12)
+              r.raise_for_status(); payload=r.json(); prices=extract(payload)
               row=[sym]
               for d,w,m in checkpoints:
                 pd,pw,pm=prices.get(d),prices.get(w),prices.get(m)
                 row += [pd, (pd/pw-1) if pd is not None and pw not in (None,0) else None, (pd/pm-1) if pd is not None and pm not in (None,0) else None]
-              rows.append(row)
-              if not any(x is not None for x in row[1:]): errors[sym]={'url':url,'note':'no checkpoint values','keys': list(prices)[:5]}
+              err=None if any(x is not None for x in row[1:]) else {'url':url,'note':'no checkpoint values','payload_type':type(payload).__name__,'payload_preview':str(payload)[:500]}
+              return sym,row,err,payload if sym=='BTC' else None
             except Exception as e:
-              rows.append([sym]+[None]*15); errors[sym]={'url':url,'error':repr(e)}
-            time.sleep(0.08)
+              return sym,[sym]+[None]*15,{'url':url,'error':repr(e)},None
+          results={}; errors={}; sample=None
+          with ThreadPoolExecutor(max_workers=32) as ex:
+            futs={ex.submit(fetch_one,s):s for s in symbols}
+            for fut in as_completed(futs):
+              sym,row,err,payload=fut.result(); results[sym]=row
+              if err: errors[sym]=err
+              if payload is not None: sample=payload
+          headers=['Symbol']
+          for d,_,__ in checkpoints: headers += [f'{d} Daily close',f'{d} 1W %',f'{d} 1M %']
           with open('historical_metrics.csv','w',newline='') as f:
-            w=csv.writer(f); w.writerow(headers); w.writerows(rows)
+            w=csv.writer(f); w.writerow(headers); [w.writerow(results[s]) for s in symbols]
           with open('fetch_errors.json','w') as f: json.dump(errors,f,indent=2)
           with open('sample_payload.json','w') as f: json.dump(sample,f,indent=2)
-          print('rows',len(rows),'errors',len(errors))
+          print('rows',len(results),'errors',len(errors))
           PY
           python fetch_history.py
       - name: Commit results
