@@ -1,0 +1,1066 @@
+{
+  "LTC": {
+    "url": "https://hyperacademy.io/api/hl/markets/ltc-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'ltc-perp', 'type': 'perp', 'coin': 'LTC', 'name': 'LTC Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 108.67, 'funding': None, 'openInterestUsd': None, 'volumeBase': 125754.5}, {'time': '2025-09-02T00:00:00.000Z', 'price': 111.69, 'funding': None, 'openInterestUsd': None, 'volumeBase'"
+  },
+  "WLD": {
+    "url": "https://hyperacademy.io/api/hl/markets/wld-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'wld-perp', 'type': 'perp', 'coin': 'WLD', 'name': 'WLD Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.85451, 'funding': None, 'openInterestUsd': None, 'volumeBase': 4636382.8}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.88797, 'funding': None, 'openInterestUsd': None, 'volumeBa"
+  },
+  "TRUMP": {
+    "url": "https://hyperacademy.io/api/hl/markets/trump-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'trump-perp', 'type': 'perp', 'coin': 'TRUMP', 'name': 'TRUMP Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 8.3363, 'funding': None, 'openInterestUsd': None, 'volumeBase': 6797656.8}, {'time': '2025-09-02T00:00:00.000Z', 'price': 8.3919, 'funding': None, 'openInterestUsd': None, 'volu"
+  },
+  "ZEC": {
+    "url": "https://hyperacademy.io/api/hl/markets/zec-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'zec-perp', 'type': 'perp', 'coin': 'ZEC', 'name': 'ZEC Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 40.49, 'funding': None, 'openInterestUsd': None, 'volumeBase': 0}, {'time': '2025-09-02T00:00:00.000Z', 'price': 41.55, 'funding': None, 'openInterestUsd': None, 'volumeBase': 0}, {'t"
+  },
+  "ASTER": {
+    "url": "https://hyperacademy.io/api/hl/markets/aster-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'aster-perp', 'type': 'perp', 'coin': 'ASTER', 'name': 'ASTER Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-19T00:00:00.000Z', 'price': 0.88692, 'funding': None, 'openInterestUsd': None, 'volumeBase': 205657541}, {'time': '2025-09-20T00:00:00.000Z', 'price': 1.6591, 'funding': None, 'openInterestUsd': None, 'vol"
+  },
+  "PEPE": {
+    "url": "https://hyperacademy.io/api/hl/markets/kpepe-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'kpepe-perp', 'type': 'perp', 'coin': 'kPEPE', 'name': 'kPEPE Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.009451, 'funding': None, 'openInterestUsd': None, 'volumeBase': 3964736737}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.009787, 'funding': None, 'openInterestUsd': None, "
+  },
+  "HYPE": {
+    "url": "https://hyperacademy.io/api/hl/markets/hype-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'hype-perp', 'type': 'perp', 'coin': 'HYPE', 'name': 'HYPE Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 43.104, 'funding': None, 'openInterestUsd': None, 'volumeBase': 8848029.54}, {'time': '2025-09-02T00:00:00.000Z', 'price': 44.874, 'funding': None, 'openInterestUsd': None, 'volume"
+  },
+  "WLFI": {
+    "url": "https://hyperacademy.io/api/hl/markets/wlfi-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'wlfi-perp', 'type': 'perp', 'coin': 'WLFI', 'name': 'WLFI Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.23339, 'funding': None, 'openInterestUsd': None, 'volumeBase': 2326268322}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.22722, 'funding': None, 'openInterestUsd': None, 'volu"
+  },
+  "XPL": {
+    "url": "https://hyperacademy.io/api/hl/markets/xpl-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'xpl-perp', 'type': 'perp', 'coin': 'XPL', 'name': 'XPL Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.70319, 'funding': None, 'openInterestUsd': None, 'volumeBase': 54328220}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.68789, 'funding': None, 'openInterestUsd': None, 'volumeBas"
+  },
+  "DOGE": {
+    "url": "https://hyperacademy.io/api/hl/markets/doge-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'doge-perp', 'type': 'perp', 'coin': 'DOGE', 'name': 'DOGE Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.21058, 'funding': None, 'openInterestUsd': None, 'volumeBase': 248792929}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.21487, 'funding': None, 'openInterestUsd': None, 'volum"
+  },
+  "CRV": {
+    "url": "https://hyperacademy.io/api/hl/markets/crv-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'crv-perp', 'type': 'perp', 'coin': 'CRV', 'name': 'CRV Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.74364, 'funding': None, 'openInterestUsd': None, 'volumeBase': 16069746.3}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.76631, 'funding': None, 'openInterestUsd': None, 'volumeB"
+  },
+  "MON": {
+    "url": "https://hyperacademy.io/api/hl/markets/mon-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'mon-perp', 'type': 'perp', 'coin': 'MON', 'name': 'MON Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-10-08T00:00:00.000Z', 'price': 0.13393, 'funding': None, 'openInterestUsd': None, 'volumeBase': 210956803}, {'time': '2025-10-09T00:00:00.000Z', 'price': 0.11941, 'funding': None, 'openInterestUsd': None, 'volumeBa"
+  },
+  "AAVE": {
+    "url": "https://hyperacademy.io/api/hl/markets/aave-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'aave-perp', 'type': 'perp', 'coin': 'AAVE', 'name': 'AAVE Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 304.63, 'funding': None, 'openInterestUsd': None, 'volumeBase': 67330.3}, {'time': '2025-09-02T00:00:00.000Z', 'price': 315.59, 'funding': None, 'openInterestUsd': None, 'volumeBas"
+  },
+  "XMR": {
+    "url": "https://hyperacademy.io/api/hl/markets/xmr-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'xmr-perp', 'type': 'perp', 'coin': 'XMR', 'name': 'XMR Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 260.04, 'funding': None, 'openInterestUsd': None, 'volumeBase': 0}, {'time': '2025-09-02T00:00:00.000Z', 'price': 269.85, 'funding': None, 'openInterestUsd': None, 'volumeBase': 0}, {"
+  },
+  "ONDO": {
+    "url": "https://hyperacademy.io/api/hl/markets/ondo-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'ondo-perp', 'type': 'perp', 'coin': 'ONDO', 'name': 'ONDO Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.8793, 'funding': None, 'openInterestUsd': None, 'volumeBase': 4519948}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.94812, 'funding': None, 'openInterestUsd': None, 'volumeBa"
+  },
+  "ADA": {
+    "url": "https://hyperacademy.io/api/hl/markets/ada-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'ada-perp', 'type': 'perp', 'coin': 'ADA', 'name': 'ADA Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.80084, 'funding': None, 'openInterestUsd': None, 'volumeBase': 46151087}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.83483, 'funding': None, 'openInterestUsd': None, 'volumeBas"
+  },
+  "ETH": {
+    "url": "https://hyperacademy.io/api/hl/markets/eth-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'eth-perp', 'type': 'perp', 'coin': 'ETH', 'name': 'ETH Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 4312, 'funding': None, 'openInterestUsd': None, 'volumeBase': 964842.3017}, {'time': '2025-09-02T00:00:00.000Z', 'price': 4324.7, 'funding': None, 'openInterestUsd': None, 'volumeBase"
+  },
+  "BNB": {
+    "url": "https://hyperacademy.io/api/hl/markets/bnb-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'bnb-perp', 'type': 'perp', 'coin': 'BNB', 'name': 'BNB Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 845.51, 'funding': None, 'openInterestUsd': None, 'volumeBase': 11294.264}, {'time': '2025-09-02T00:00:00.000Z', 'price': 851.65, 'funding': None, 'openInterestUsd': None, 'volumeBase"
+  },
+  "SOL": {
+    "url": "https://hyperacademy.io/api/hl/markets/sol-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'sol-perp', 'type': 'perp', 'coin': 'SOL', 'name': 'SOL Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 197.19, 'funding': None, 'openInterestUsd': None, 'volumeBase': 5398821}, {'time': '2025-09-02T00:00:00.000Z', 'price': 209.61, 'funding': None, 'openInterestUsd': None, 'volumeBase':"
+  },
+  "SUI": {
+    "url": "https://hyperacademy.io/api/hl/markets/sui-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'sui-perp', 'type': 'perp', 'coin': 'SUI', 'name': 'SUI Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 3.2018, 'funding': None, 'openInterestUsd': None, 'volumeBase': 12914339.1}, {'time': '2025-09-02T00:00:00.000Z', 'price': 3.3154, 'funding': None, 'openInterestUsd': None, 'volumeBas"
+  },
+  "BCH": {
+    "url": "https://hyperacademy.io/api/hl/markets/bch-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'bch-perp', 'type': 'perp', 'coin': 'BCH', 'name': 'BCH Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 545.38, 'funding': None, 'openInterestUsd': None, 'volumeBase': 5506.806}, {'time': '2025-09-02T00:00:00.000Z', 'price': 584.63, 'funding': None, 'openInterestUsd': None, 'volumeBase'"
+  },
+  "NEAR": {
+    "url": "https://hyperacademy.io/api/hl/markets/near-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'near-perp', 'type': 'perp', 'coin': 'NEAR', 'name': 'NEAR Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 2.3413, 'funding': None, 'openInterestUsd': None, 'volumeBase': 653795.3}, {'time': '2025-09-02T00:00:00.000Z', 'price': 2.4373, 'funding': None, 'openInterestUsd': None, 'volumeBa"
+  },
+  "BTC": {
+    "url": "https://hyperacademy.io/api/hl/markets/btc-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'btc-perp', 'type': 'perp', 'coin': 'BTC', 'name': 'BTC Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 109222, 'funding': None, 'openInterestUsd': None, 'volumeBase': 38302.12374}, {'time': '2025-09-02T00:00:00.000Z', 'price': 111225, 'funding': None, 'openInterestUsd': None, 'volumeBa"
+  },
+  "LINK": {
+    "url": "https://hyperacademy.io/api/hl/markets/link-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'link-perp', 'type': 'perp', 'coin': 'LINK', 'name': 'LINK Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 22.503, 'funding': None, 'openInterestUsd': None, 'volumeBase': 1629593.9}, {'time': '2025-09-02T00:00:00.000Z', 'price': 23.494, 'funding': None, 'openInterestUsd': None, 'volumeB"
+  },
+  "TAO": {
+    "url": "https://hyperacademy.io/api/hl/markets/tao-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'tao-perp', 'type': 'perp', 'coin': 'TAO', 'name': 'TAO Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 309.77, 'funding': None, 'openInterestUsd': None, 'volumeBase': 12516.246}, {'time': '2025-09-02T00:00:00.000Z', 'price': 321.18, 'funding': None, 'openInterestUsd': None, 'volumeBase"
+  },
+  "LIT": {
+    "url": "https://hyperacademy.io/api/hl/markets/lit-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'lit-perp', 'type': 'perp', 'coin': 'LIT', 'name': 'LIT Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-12-22T00:00:00.000Z', 'price': 3.8902, 'funding': None, 'openInterestUsd': None, 'volumeBase': 4316309}, {'time': '2025-12-23T00:00:00.000Z', 'price': 3.6762, 'funding': None, 'openInterestUsd': None, 'volumeBase':"
+  },
+  "AVAX": {
+    "url": "https://hyperacademy.io/api/hl/markets/avax-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'avax-perp', 'type': 'perp', 'coin': 'AVAX', 'name': 'AVAX Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 23.213, 'funding': None, 'openInterestUsd': None, 'volumeBase': 674488.17}, {'time': '2025-09-02T00:00:00.000Z', 'price': 24.474, 'funding': None, 'openInterestUsd': None, 'volumeB"
+  },
+  "XRP": {
+    "url": "https://hyperacademy.io/api/hl/markets/xrp-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'xrp-perp', 'type': 'perp', 'coin': 'XRP', 'name': 'XRP Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 2.7572, 'funding': None, 'openInterestUsd': None, 'volumeBase': 66143544}, {'time': '2025-09-02T00:00:00.000Z', 'price': 2.8612, 'funding': None, 'openInterestUsd': None, 'volumeBase'"
+  },
+  "UNI": {
+    "url": "https://hyperacademy.io/api/hl/markets/uni-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'uni-perp', 'type': 'perp', 'coin': 'UNI', 'name': 'UNI Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 9.3513, 'funding': None, 'openInterestUsd': None, 'volumeBase': 587536.7}, {'time': '2025-09-02T00:00:00.000Z', 'price': 9.5855, 'funding': None, 'openInterestUsd': None, 'volumeBase'"
+  },
+  "ENA": {
+    "url": "https://hyperacademy.io/api/hl/markets/ena-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'ena-perp', 'type': 'perp', 'coin': 'ENA', 'name': 'ENA Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.6287, 'funding': None, 'openInterestUsd': None, 'volumeBase': 83315966}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.68765, 'funding': None, 'openInterestUsd': None, 'volumeBase"
+  },
+  "PUMP": {
+    "url": "https://hyperacademy.io/api/hl/markets/pump-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'pump-perp', 'type': 'perp', 'coin': 'PUMP', 'name': 'PUMP Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.003415, 'funding': None, 'openInterestUsd': None, 'volumeBase': 27244617049}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.003902, 'funding': None, 'openInterestUsd': None, 'v"
+  },
+  "JUP": {
+    "url": "https://hyperacademy.io/api/hl/markets/jup-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'jup-perp', 'type': 'perp', 'coin': 'JUP', 'name': 'JUP Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.47547, 'funding': None, 'openInterestUsd': None, 'volumeBase': 7780020}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.49986, 'funding': None, 'openInterestUsd': None, 'volumeBase"
+  },
+  "XLM": {
+    "url": "https://hyperacademy.io/api/hl/markets/xlm-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'xlm-perp', 'type': 'perp', 'coin': 'XLM', 'name': 'XLM Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.35715, 'funding': None, 'openInterestUsd': None, 'volumeBase': 8853705}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.36777, 'funding': None, 'openInterestUsd': None, 'volumeBase"
+  },
+  "PENGU": {
+    "url": "https://hyperacademy.io/api/hl/markets/pengu-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'pengu-perp', 'type': 'perp', 'coin': 'PENGU', 'name': 'PENGU Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.028481, 'funding': None, 'openInterestUsd': None, 'volumeBase': 806414874}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.030945, 'funding': None, 'openInterestUsd': None, '"
+  },
+  "PENDLE": {
+    "url": "https://hyperacademy.io/api/hl/markets/pendle-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'pendle-perp', 'type': 'perp', 'coin': 'PENDLE', 'name': 'PENDLE Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 4.5059, 'funding': None, 'openInterestUsd': None, 'volumeBase': 614373}, {'time': '2025-09-02T00:00:00.000Z', 'price': 4.5642, 'funding': None, 'openInterestUsd': None, 'volu"
+  },
+  "LDO": {
+    "url": "https://hyperacademy.io/api/hl/markets/ldo-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'ldo-perp', 'type': 'perp', 'coin': 'LDO', 'name': 'LDO Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 1.1594, 'funding': None, 'openInterestUsd': None, 'volumeBase': 4834432.5}, {'time': '2025-09-02T00:00:00.000Z', 'price': 1.1993, 'funding': None, 'openInterestUsd': None, 'volumeBase"
+  },
+  "FIL": {
+    "url": "https://hyperacademy.io/api/hl/markets/fil-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'fil-perp', 'type': 'perp', 'coin': 'FIL', 'name': 'FIL Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 2.2827, 'funding': None, 'openInterestUsd': None, 'volumeBase': 598512.9}, {'time': '2025-09-02T00:00:00.000Z', 'price': 2.2692, 'funding': None, 'openInterestUsd': None, 'volumeBase'"
+  },
+  "OP": {
+    "url": "https://hyperacademy.io/api/hl/markets/op-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'op-perp', 'type': 'perp', 'coin': 'OP', 'name': 'OP Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.67259, 'funding': None, 'openInterestUsd': None, 'volumeBase': 4322109.2}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.71038, 'funding': None, 'openInterestUsd': None, 'volumeBase'"
+  },
+  "BONK": {
+    "url": "https://hyperacademy.io/api/hl/markets/kbonk-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'kbonk-perp', 'type': 'perp', 'coin': 'kBONK', 'name': 'kBONK Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.020223, 'funding': None, 'openInterestUsd': None, 'volumeBase': 2624184883}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.020566, 'funding': None, 'openInterestUsd': None, "
+  },
+  "WIF": {
+    "url": "https://hyperacademy.io/api/hl/markets/wif-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'wif-perp', 'type': 'perp', 'coin': 'WIF', 'name': 'WIF Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.76072, 'funding': None, 'openInterestUsd': None, 'volumeBase': 9251107}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.81894, 'funding': None, 'openInterestUsd': None, 'volumeBase"
+  },
+  "FARTCOIN": {
+    "url": "https://hyperacademy.io/api/hl/markets/fartcoin-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'fartcoin-perp', 'type': 'perp', 'coin': 'FARTCOIN', 'name': 'FARTCOIN Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.71781, 'funding': None, 'openInterestUsd': None, 'volumeBase': 150713199}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.79466, 'funding': None, 'openInterestUsd': "
+  },
+  "PONS": {
+    "url": "https://hyperacademy.io/api/hl/markets/pons-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'pons-perp', 'type': 'perp', 'coin': 'PONS', 'name': 'PONS Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2026-08-31T00:00:00.000Z', 'price': 0.40053, 'funding': None, 'openInterestUsd': None, 'volumeBase': 155445123}, {'time': '2026-09-01T00:00:00.000Z', 'price': 0.44356, 'funding': None, 'openInterestUsd': None, 'volum"
+  },
+  "ZRO": {
+    "url": "https://hyperacademy.io/api/hl/markets/zro-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'zro-perp', 'type': 'perp', 'coin': 'ZRO', 'name': 'ZRO Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 1.8168, 'funding': None, 'openInterestUsd': None, 'volumeBase': 848030.7}, {'time': '2025-09-02T00:00:00.000Z', 'price': 1.8732, 'funding': None, 'openInterestUsd': None, 'volumeBase'"
+  },
+  "USELESS": {
+    "url": "https://hyperacademy.io/api/hl/markets/useless-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'useless-perp', 'type': 'perp', 'coin': 'USELESS', 'name': 'USELESS Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2026-09-08T00:00:00.000Z', 'price': 0.28489, 'funding': None, 'openInterestUsd': None, 'volumeBase': 20541353}, {'time': '2026-09-09T00:00:00.000Z', 'price': 0.22518, 'funding': None, 'openInterestUsd': None"
+  },
+  "VIRTUAL": {
+    "url": "https://hyperacademy.io/api/hl/markets/virtual-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'virtual-perp', 'type': 'perp', 'coin': 'VIRTUAL', 'name': 'VIRTUAL Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 1.0253, 'funding': None, 'openInterestUsd': None, 'volumeBase': 2054628.1}, {'time': '2025-09-02T00:00:00.000Z', 'price': 1.0616, 'funding': None, 'openInterestUsd': None,"
+  },
+  "HBAR": {
+    "url": "https://hyperacademy.io/api/hl/markets/hbar-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'hbar-perp', 'type': 'perp', 'coin': 'HBAR', 'name': 'HBAR Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.21459, 'funding': None, 'openInterestUsd': None, 'volumeBase': 11909893}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.22059, 'funding': None, 'openInterestUsd': None, 'volume"
+  },
+  "PAXG": {
+    "url": "https://hyperacademy.io/api/hl/markets/paxg-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'paxg-perp', 'type': 'perp', 'coin': 'PAXG', 'name': 'PAXG Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 3506.6, 'funding': None, 'openInterestUsd': None, 'volumeBase': 1980.387}, {'time': '2025-09-02T00:00:00.000Z', 'price': 3548, 'funding': None, 'openInterestUsd': None, 'volumeBase"
+  },
+  "STRK": {
+    "url": "https://hyperacademy.io/api/hl/markets/strk-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'strk-perp', 'type': 'perp', 'coin': 'STRK', 'name': 'STRK Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.12118, 'funding': None, 'openInterestUsd': None, 'volumeBase': 3327242.6}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.12355, 'funding': None, 'openInterestUsd': None, 'volum"
+  },
+  "ICP": {
+    "url": "https://hyperacademy.io/api/hl/markets/icp-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'icp-perp', 'type': 'perp', 'coin': 'ICP', 'name': 'ICP Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 4.693, 'funding': None, 'openInterestUsd': None, 'volumeBase': 0}, {'time': '2025-09-02T00:00:00.000Z', 'price': 4.867, 'funding': None, 'openInterestUsd': None, 'volumeBase': 0}, {'t"
+  },
+  "VVV": {
+    "url": "https://hyperacademy.io/api/hl/markets/vvv-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'vvv-perp', 'type': 'perp', 'coin': 'VVV', 'name': 'VVV Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 2.6299, 'funding': None, 'openInterestUsd': None, 'volumeBase': 60901.41}, {'time': '2025-09-02T00:00:00.000Z', 'price': 2.762, 'funding': None, 'openInterestUsd': None, 'volumeBase':"
+  },
+  "MORPHO": {
+    "url": "https://hyperacademy.io/api/hl/markets/morpho-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'morpho-perp', 'type': 'perp', 'coin': 'MORPHO', 'name': 'MORPHO Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 1.815, 'funding': None, 'openInterestUsd': None, 'volumeBase': 773507.7}, {'time': '2025-09-02T00:00:00.000Z', 'price': 1.9298, 'funding': None, 'openInterestUsd': None, 'vol"
+  },
+  "ARB": {
+    "url": "https://hyperacademy.io/api/hl/markets/arb-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'arb-perp', 'type': 'perp', 'coin': 'ARB', 'name': 'ARB Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.47708, 'funding': None, 'openInterestUsd': None, 'volumeBase': 25975871.4}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.5025, 'funding': None, 'openInterestUsd': None, 'volumeBa"
+  },
+  "KAITO": {
+    "url": "https://hyperacademy.io/api/hl/markets/kaito-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'kaito-perp', 'type': 'perp', 'coin': 'KAITO', 'name': 'KAITO Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 1.0052, 'funding': None, 'openInterestUsd': None, 'volumeBase': 587507}, {'time': '2025-09-02T00:00:00.000Z', 'price': 1.0483, 'funding': None, 'openInterestUsd': None, 'volumeB"
+  },
+  "SHIB": {
+    "url": "https://hyperacademy.io/api/hl/markets/kshib-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'kshib-perp', 'type': 'perp', 'coin': 'kSHIB', 'name': 'kSHIB Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.012097, 'funding': None, 'openInterestUsd': None, 'volumeBase': 153471890}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.012431, 'funding': None, 'openInterestUsd': None, '"
+  },
+  "DOT": {
+    "url": "https://hyperacademy.io/api/hl/markets/dot-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'dot-perp', 'type': 'perp', 'coin': 'DOT', 'name': 'DOT Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 3.6905, 'funding': None, 'openInterestUsd': None, 'volumeBase': 319430}, {'time': '2025-09-02T00:00:00.000Z', 'price': 3.8158, 'funding': None, 'openInterestUsd': None, 'volumeBase': "
+  },
+  "BERA": {
+    "url": "https://hyperacademy.io/api/hl/markets/bera-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'bera-perp', 'type': 'perp', 'coin': 'BERA', 'name': 'BERA Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 2.3371, 'funding': None, 'openInterestUsd': None, 'volumeBase': 2381440.6}, {'time': '2025-09-02T00:00:00.000Z', 'price': 2.3256, 'funding': None, 'openInterestUsd': None, 'volumeB"
+  },
+  "POL": {
+    "url": "https://hyperacademy.io/api/hl/markets/pol-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'pol-perp', 'type': 'perp', 'coin': 'POL', 'name': 'POL Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.27168, 'funding': None, 'openInterestUsd': None, 'volumeBase': 10405846}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.28944, 'funding': None, 'openInterestUsd': None, 'volumeBas"
+  },
+  "MEGA": {
+    "url": "https://hyperacademy.io/api/hl/markets/mega-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'mega-perp', 'type': 'perp', 'coin': 'MEGA', 'name': 'MEGA Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-10-22T00:00:00.000Z', 'price': 0.4266, 'funding': None, 'openInterestUsd': None, 'volumeBase': 34782152}, {'time': '2025-10-23T00:00:00.000Z', 'price': 0.48369, 'funding': None, 'openInterestUsd': None, 'volumeB"
+  },
+  "SEI": {
+    "url": "https://hyperacademy.io/api/hl/markets/sei-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'sei-perp', 'type': 'perp', 'coin': 'SEI', 'name': 'SEI Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.27515, 'funding': None, 'openInterestUsd': None, 'volumeBase': 29262064}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.28674, 'funding': None, 'openInterestUsd': None, 'volumeBas"
+  },
+  "APT": {
+    "url": "https://hyperacademy.io/api/hl/markets/apt-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'apt-perp', 'type': 'perp', 'coin': 'APT', 'name': 'APT Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 4.2096, 'funding': None, 'openInterestUsd': None, 'volumeBase': 629011.86}, {'time': '2025-09-02T00:00:00.000Z', 'price': 4.3358, 'funding': None, 'openInterestUsd': None, 'volumeBase"
+  },
+  "CASHCAT": {
+    "url": "https://hyperacademy.io/api/hl/markets/cashcat-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'cashcat-perp', 'type': 'perp', 'coin': 'CASHCAT', 'name': 'CASHCAT Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2026-07-11T00:00:00.000Z', 'price': 0.19828, 'funding': None, 'openInterestUsd': None, 'volumeBase': 121422955}, {'time': '2026-07-12T00:00:00.000Z', 'price': 0.1502, 'funding': None, 'openInterestUsd': None"
+  },
+  "CHIP": {
+    "url": "https://hyperacademy.io/api/hl/markets/chip-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'chip-perp', 'type': 'perp', 'coin': 'CHIP', 'name': 'CHIP Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2026-04-22T00:00:00.000Z', 'price': 0.11194, 'funding': None, 'openInterestUsd': None, 'volumeBase': 1482512032}, {'time': '2026-04-23T00:00:00.000Z', 'price': 0.10378, 'funding': None, 'openInterestUsd': None, 'volu"
+  },
+  "EIGEN": {
+    "url": "https://hyperacademy.io/api/hl/markets/eigen-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'eigen-perp', 'type': 'perp', 'coin': 'EIGEN', 'name': 'EIGEN Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 1.1397, 'funding': None, 'openInterestUsd': None, 'volumeBase': 1063332}, {'time': '2025-09-02T00:00:00.000Z', 'price': 1.2077, 'funding': None, 'openInterestUsd': None, 'volume"
+  },
+  "AXS": {
+    "url": "https://hyperacademy.io/api/hl/markets/axs-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'axs-perp', 'type': 'perp', 'coin': 'AXS', 'name': 'AXS Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 2.327, 'funding': None, 'openInterestUsd': None, 'volumeBase': 0}, {'time': '2025-09-02T00:00:00.000Z', 'price': 2.36, 'funding': None, 'openInterestUsd': None, 'volumeBase': 0}, {'ti"
+  },
+  "ZK": {
+    "url": "https://hyperacademy.io/api/hl/markets/zk-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'zk-perp', 'type': 'perp', 'coin': 'ZK', 'name': 'ZK Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.054726, 'funding': None, 'openInterestUsd': None, 'volumeBase': 24948865}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.056595, 'funding': None, 'openInterestUsd': None, 'volumeBase"
+  },
+  "TRX": {
+    "url": "https://hyperacademy.io/api/hl/markets/trx-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'trx-perp', 'type': 'perp', 'coin': 'TRX', 'name': 'TRX Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.33708, 'funding': None, 'openInterestUsd': None, 'volumeBase': 12462913}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.33785, 'funding': None, 'openInterestUsd': None, 'volumeBas"
+  },
+  "ATOM": {
+    "url": "https://hyperacademy.io/api/hl/markets/atom-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'atom-perp', 'type': 'perp', 'coin': 'ATOM', 'name': 'ATOM Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 4.3918, 'funding': None, 'openInterestUsd': None, 'volumeBase': 138593.1}, {'time': '2025-09-02T00:00:00.000Z', 'price': 4.4268, 'funding': None, 'openInterestUsd': None, 'volumeBa"
+  },
+  "CC": {
+    "url": "https://hyperacademy.io/api/hl/markets/cc-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'cc-perp', 'type': 'perp', 'coin': 'CC', 'name': 'CC Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-10-31T00:00:00.000Z', 'price': 0.14127, 'funding': None, 'openInterestUsd': None, 'volumeBase': 101553954}, {'time': '2025-11-01T00:00:00.000Z', 'price': 0.16027, 'funding': None, 'openInterestUsd': None, 'volumeBase'"
+  },
+  "LINEA": {
+    "url": "https://hyperacademy.io/api/hl/markets/linea-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'linea-perp', 'type': 'perp', 'coin': 'LINEA', 'name': 'LINEA Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.043102, 'funding': None, 'openInterestUsd': None, 'volumeBase': 180999085}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.035784, 'funding': None, 'openInterestUsd': None, '"
+  },
+  "GRAM": {
+    "url": "https://hyperacademy.io/api/hl/markets/gram-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'gram-perp', 'type': 'perp', 'coin': 'GRAM', 'name': 'GRAM Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2026-07-02T00:00:00.000Z', 'price': 1.671, 'funding': None, 'openInterestUsd': None, 'volumeBase': 8324557}, {'time': '2026-07-03T00:00:00.000Z', 'price': 1.6927, 'funding': None, 'openInterestUsd': None, 'volumeBase"
+  },
+  "ZEN": {
+    "url": "https://hyperacademy.io/api/hl/markets/zen-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'zen-perp', 'type': 'perp', 'coin': 'ZEN', 'name': 'ZEN Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 6.9369, 'funding': None, 'openInterestUsd': None, 'volumeBase': 43398.45}, {'time': '2025-09-02T00:00:00.000Z', 'price': 7.0952, 'funding': None, 'openInterestUsd': None, 'volumeBase'"
+  },
+  "PYTH": {
+    "url": "https://hyperacademy.io/api/hl/markets/pyth-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'pyth-perp', 'type': 'perp', 'coin': 'PYTH', 'name': 'PYTH Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.1619, 'funding': None, 'openInterestUsd': None, 'volumeBase': 43247602}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.16238, 'funding': None, 'openInterestUsd': None, 'volumeB"
+  },
+  "PROVE": {
+    "url": "https://hyperacademy.io/api/hl/markets/prove-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'prove-perp', 'type': 'perp', 'coin': 'PROVE', 'name': 'PROVE Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.84436, 'funding': None, 'openInterestUsd': None, 'volumeBase': 537212}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.86267, 'funding': None, 'openInterestUsd': None, 'volum"
+  },
+  "JTO": {
+    "url": "https://hyperacademy.io/api/hl/markets/jto-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'jto-perp', 'type': 'perp', 'coin': 'JTO', 'name': 'JTO Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 1.8309, 'funding': None, 'openInterestUsd': None, 'volumeBase': 190782}, {'time': '2025-09-02T00:00:00.000Z', 'price': 1.9071, 'funding': None, 'openInterestUsd': None, 'volumeBase': "
+  },
+  "STBL": {
+    "url": "https://hyperacademy.io/api/hl/markets/stbl-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'stbl-perp', 'type': 'perp', 'coin': 'STBL', 'name': 'STBL Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-17T00:00:00.000Z', 'price': 0.1318, 'funding': None, 'openInterestUsd': None, 'volumeBase': 0}, {'time': '2025-09-18T00:00:00.000Z', 'price': 0.22954, 'funding': None, 'openInterestUsd': None, 'volumeBase': 0"
+  },
+  "POPCAT": {
+    "url": "https://hyperacademy.io/api/hl/markets/popcat-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'popcat-perp', 'type': 'perp', 'coin': 'POPCAT', 'name': 'POPCAT Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.23517, 'funding': None, 'openInterestUsd': None, 'volumeBase': 19502862}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.25577, 'funding': None, 'openInterestUsd': None, '"
+  },
+  "MOODENG": {
+    "url": "https://hyperacademy.io/api/hl/markets/moodeng-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'moodeng-perp', 'type': 'perp', 'coin': 'MOODENG', 'name': 'MOODENG Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.12613, 'funding': None, 'openInterestUsd': None, 'volumeBase': 21166509}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.13284, 'funding': None, 'openInterestUsd': None"
+  },
+  "DASH": {
+    "url": "https://hyperacademy.io/api/hl/markets/dash-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'dash-perp', 'type': 'perp', 'coin': 'DASH', 'name': 'DASH Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 22.75, 'funding': None, 'openInterestUsd': None, 'volumeBase': 0}, {'time': '2025-09-02T00:00:00.000Z', 'price': 23.27, 'funding': None, 'openInterestUsd': None, 'volumeBase': 0}, "
+  },
+  "SPX": {
+    "url": "https://hyperacademy.io/api/hl/markets/spx-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'spx-perp', 'type': 'perp', 'coin': 'SPX', 'name': 'SPX Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 1.0756, 'funding': None, 'openInterestUsd': None, 'volumeBase': 7079725.6}, {'time': '2025-09-02T00:00:00.000Z', 'price': 1.1077, 'funding': None, 'openInterestUsd': None, 'volumeBase"
+  },
+  "ETC": {
+    "url": "https://hyperacademy.io/api/hl/markets/etc-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'etc-perp', 'type': 'perp', 'coin': 'ETC', 'name': 'ETC Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 20.487, 'funding': None, 'openInterestUsd': None, 'volumeBase': 29622.71}, {'time': '2025-09-02T00:00:00.000Z', 'price': 20.797, 'funding': None, 'openInterestUsd': None, 'volumeBase'"
+  },
+  "SKY": {
+    "url": "https://hyperacademy.io/api/hl/markets/sky-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'sky-perp', 'type': 'perp', 'coin': 'SKY', 'name': 'SKY Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-09T00:00:00.000Z', 'price': 0.06923, 'funding': None, 'openInterestUsd': None, 'volumeBase': 0}, {'time': '2025-09-10T00:00:00.000Z', 'price': 0.0723, 'funding': None, 'openInterestUsd': None, 'volumeBase': 0}, "
+  },
+  "RENDER": {
+    "url": "https://hyperacademy.io/api/hl/markets/render-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'render-perp', 'type': 'perp', 'coin': 'RENDER', 'name': 'RENDER Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 3.3296, 'funding': None, 'openInterestUsd': None, 'volumeBase': 223856.7}, {'time': '2025-09-02T00:00:00.000Z', 'price': 3.4559, 'funding': None, 'openInterestUsd': None, 'vo"
+  },
+  "S": {
+    "url": "https://hyperacademy.io/api/hl/markets/s-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 's-perp', 'type': 'perp', 'coin': 'S', 'name': 'S Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.29948, 'funding': None, 'openInterestUsd': None, 'volumeBase': 5529764}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.30956, 'funding': None, 'openInterestUsd': None, 'volumeBase': 255"
+  },
+  "TIA": {
+    "url": "https://hyperacademy.io/api/hl/markets/tia-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'tia-perp', 'type': 'perp', 'coin': 'TIA', 'name': 'TIA Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 1.5521, 'funding': None, 'openInterestUsd': None, 'volumeBase': 1491393.6}, {'time': '2025-09-02T00:00:00.000Z', 'price': 1.6062, 'funding': None, 'openInterestUsd': None, 'volumeBase"
+  },
+  "CAKE": {
+    "url": "https://hyperacademy.io/api/hl/markets/cake-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'cake-perp', 'type': 'perp', 'coin': 'CAKE', 'name': 'CAKE Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 2.3857, 'funding': None, 'openInterestUsd': None, 'volumeBase': 223474.5}, {'time': '2025-09-02T00:00:00.000Z', 'price': 2.4035, 'funding': None, 'openInterestUsd': None, 'volumeBa"
+  },
+  "ETHFI": {
+    "url": "https://hyperacademy.io/api/hl/markets/ethfi-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'ethfi-perp', 'type': 'perp', 'coin': 'ETHFI', 'name': 'ETHFI Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 1.0271, 'funding': None, 'openInterestUsd': None, 'volumeBase': 2958209.8}, {'time': '2025-09-02T00:00:00.000Z', 'price': 1.1097, 'funding': None, 'openInterestUsd': None, 'volu"
+  },
+  "AR": {
+    "url": "https://hyperacademy.io/api/hl/markets/ar-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'ar-perp', 'type': 'perp', 'coin': 'AR', 'name': 'AR Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 6.0756, 'funding': None, 'openInterestUsd': None, 'volumeBase': 60831.64}, {'time': '2025-09-02T00:00:00.000Z', 'price': 6.2495, 'funding': None, 'openInterestUsd': None, 'volumeBase': 7"
+  },
+  "FLOKI": {
+    "url": "https://hyperacademy.io/api/hl/markets/floki-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "error": "HTTPError('404 Client Error: Not Found for url: https://hyperacademy.io/api/hl/markets/floki-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily')"
+  },
+  "MET": {
+    "url": "https://hyperacademy.io/api/hl/markets/met-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'met-perp', 'type': 'perp', 'coin': 'MET', 'name': 'MET Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-10-10T00:00:00.000Z', 'price': 1.5951, 'funding': None, 'openInterestUsd': None, 'volumeBase': 3914724}, {'time': '2025-10-11T00:00:00.000Z', 'price': 1.5433, 'funding': None, 'openInterestUsd': None, 'volumeBase':"
+  },
+  "ZORA": {
+    "url": "https://hyperacademy.io/api/hl/markets/zora-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'zora-perp', 'type': 'perp', 'coin': 'ZORA', 'name': 'ZORA Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.071684, 'funding': None, 'openInterestUsd': None, 'volumeBase': 41557067}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.075537, 'funding': None, 'openInterestUsd': None, 'volu"
+  },
+  "2Z": {
+    "url": "https://hyperacademy.io/api/hl/markets/2z-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': '2z-perp', 'type': 'perp', 'coin': '2Z', 'name': '2Z Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-10-02T00:00:00.000Z', 'price': 0.59723, 'funding': None, 'openInterestUsd': None, 'volumeBase': 208444916}, {'time': '2025-10-03T00:00:00.000Z', 'price': 0.52108, 'funding': None, 'openInterestUsd': None, 'volumeBase'"
+  },
+  "INJ": {
+    "url": "https://hyperacademy.io/api/hl/markets/inj-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'inj-perp', 'type': 'perp', 'coin': 'INJ', 'name': 'INJ Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 12.454, 'funding': None, 'openInterestUsd': None, 'volumeBase': 196379.3}, {'time': '2025-09-02T00:00:00.000Z', 'price': 12.987, 'funding': None, 'openInterestUsd': None, 'volumeBase'"
+  },
+  "AERO": {
+    "url": "https://hyperacademy.io/api/hl/markets/aero-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'aero-perp', 'type': 'perp', 'coin': 'AERO', 'name': 'AERO Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 1.0815, 'funding': None, 'openInterestUsd': None, 'volumeBase': 0}, {'time': '2025-09-02T00:00:00.000Z', 'price': 1.1247, 'funding': None, 'openInterestUsd': None, 'volumeBase': 0}"
+  },
+  "GRASS": {
+    "url": "https://hyperacademy.io/api/hl/markets/grass-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'grass-perp', 'type': 'perp', 'coin': 'GRASS', 'name': 'GRASS Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.71536, 'funding': None, 'openInterestUsd': None, 'volumeBase': 1145540}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.72136, 'funding': None, 'openInterestUsd': None, 'volu"
+  },
+  "AVNT": {
+    "url": "https://hyperacademy.io/api/hl/markets/avnt-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'avnt-perp', 'type': 'perp', 'coin': 'AVNT', 'name': 'AVNT Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-09T00:00:00.000Z', 'price': 0.21289, 'funding': None, 'openInterestUsd': None, 'volumeBase': 0}, {'time': '2025-09-10T00:00:00.000Z', 'price': 0.35204, 'funding': None, 'openInterestUsd': None, 'volumeBase': "
+  },
+  "SYRUP": {
+    "url": "https://hyperacademy.io/api/hl/markets/syrup-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'syrup-perp', 'type': 'perp', 'coin': 'SYRUP', 'name': 'SYRUP Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.45036, 'funding': None, 'openInterestUsd': None, 'volumeBase': 7362184}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.45583, 'funding': None, 'openInterestUsd': None, 'volu"
+  },
+  "AZTEC": {
+    "url": "https://hyperacademy.io/api/hl/markets/aztec-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'aztec-perp', 'type': 'perp', 'coin': 'AZTEC', 'name': 'AZTEC Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2026-02-12T00:00:00.000Z', 'price': 0.020491, 'funding': None, 'openInterestUsd': None, 'volumeBase': 254413615}, {'time': '2026-02-13T00:00:00.000Z', 'price': 0.027677, 'funding': None, 'openInterestUsd': None, '"
+  },
+  "MNT": {
+    "url": "https://hyperacademy.io/api/hl/markets/mnt-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'mnt-perp', 'type': 'perp', 'coin': 'MNT', 'name': 'MNT Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 1.1276, 'funding': None, 'openInterestUsd': None, 'volumeBase': 1930513.4}, {'time': '2025-09-02T00:00:00.000Z', 'price': 1.1214, 'funding': None, 'openInterestUsd': None, 'volumeBase"
+  },
+  "STX": {
+    "url": "https://hyperacademy.io/api/hl/markets/stx-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'stx-perp', 'type': 'perp', 'coin': 'STX', 'name': 'STX Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.60863, 'funding': None, 'openInterestUsd': None, 'volumeBase': 1007247.8}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.62622, 'funding': None, 'openInterestUsd': None, 'volumeBa"
+  },
+  "DYM": {
+    "url": "https://hyperacademy.io/api/hl/markets/dym-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'dym-perp', 'type': 'perp', 'coin': 'DYM', 'name': 'DYM Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.20117, 'funding': None, 'openInterestUsd': None, 'volumeBase': 1230611.4}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.21022, 'funding': None, 'openInterestUsd': None, 'volumeBa"
+  },
+  "ALGO": {
+    "url": "https://hyperacademy.io/api/hl/markets/algo-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'algo-perp', 'type': 'perp', 'coin': 'ALGO', 'name': 'ALGO Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.22764, 'funding': None, 'openInterestUsd': None, 'volumeBase': 2218277}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.23319, 'funding': None, 'openInterestUsd': None, 'volumeB"
+  },
+  "APEX": {
+    "url": "https://hyperacademy.io/api/hl/markets/apex-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'apex-perp', 'type': 'perp', 'coin': 'APEX', 'name': 'APEX Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-27T00:00:00.000Z', 'price': 1.9433, 'funding': None, 'openInterestUsd': None, 'volumeBase': 73912817}, {'time': '2025-09-28T00:00:00.000Z', 'price': 2.1605, 'funding': None, 'openInterestUsd': None, 'volumeBa"
+  },
+  "ENS": {
+    "url": "https://hyperacademy.io/api/hl/markets/ens-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'ens-perp', 'type': 'perp', 'coin': 'ENS', 'name': 'ENS Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 22.08, 'funding': None, 'openInterestUsd': None, 'volumeBase': 40442.09}, {'time': '2025-09-02T00:00:00.000Z', 'price': 22.557, 'funding': None, 'openInterestUsd': None, 'volumeBase':"
+  },
+  "APE": {
+    "url": "https://hyperacademy.io/api/hl/markets/ape-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'ape-perp', 'type': 'perp', 'coin': 'APE', 'name': 'APE Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.55006, 'funding': None, 'openInterestUsd': None, 'volumeBase': 1157529.7}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.57533, 'funding': None, 'openInterestUsd': None, 'volumeBa"
+  },
+  "IO": {
+    "url": "https://hyperacademy.io/api/hl/markets/io-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'io-perp', 'type': 'perp', 'coin': 'IO', 'name': 'IO Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.54056, 'funding': None, 'openInterestUsd': None, 'volumeBase': 469446.7}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.54681, 'funding': None, 'openInterestUsd': None, 'volumeBase':"
+  },
+  "STABLE": {
+    "url": "https://hyperacademy.io/api/hl/markets/stable-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'stable-perp', 'type': 'perp', 'coin': 'STABLE', 'name': 'STABLE Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-11-06T00:00:00.000Z', 'price': 0.04256, 'funding': None, 'openInterestUsd': None, 'volumeBase': 0}, {'time': '2025-11-07T00:00:00.000Z', 'price': 0.05402, 'funding': None, 'openInterestUsd': None, 'volumeB"
+  },
+  "BIO": {
+    "url": "https://hyperacademy.io/api/hl/markets/bio-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'bio-perp', 'type': 'perp', 'coin': 'BIO', 'name': 'BIO Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.14085, 'funding': None, 'openInterestUsd': None, 'volumeBase': 47930813}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.1438, 'funding': None, 'openInterestUsd': None, 'volumeBase"
+  },
+  "0G": {
+    "url": "https://hyperacademy.io/api/hl/markets/0g-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': '0g-perp', 'type': 'perp', 'coin': '0G', 'name': '0G Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-17T00:00:00.000Z', 'price': 2.7815, 'funding': None, 'openInterestUsd': None, 'volumeBase': 0}, {'time': '2025-09-18T00:00:00.000Z', 'price': 2.8067, 'funding': None, 'openInterestUsd': None, 'volumeBase': 0}, {'ti"
+  },
+  "COMP": {
+    "url": "https://hyperacademy.io/api/hl/markets/comp-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'comp-perp', 'type': 'perp', 'coin': 'COMP', 'name': 'COMP Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 42.218, 'funding': None, 'openInterestUsd': None, 'volumeBase': 13851.59}, {'time': '2025-09-02T00:00:00.000Z', 'price': 43.392, 'funding': None, 'openInterestUsd': None, 'volumeBa"
+  },
+  "NIL": {
+    "url": "https://hyperacademy.io/api/hl/markets/nil-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'nil-perp', 'type': 'perp', 'coin': 'NIL', 'name': 'NIL Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.25717, 'funding': None, 'openInterestUsd': None, 'volumeBase': 588777}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.25435, 'funding': None, 'openInterestUsd': None, 'volumeBase'"
+  },
+  "ORDI": {
+    "url": "https://hyperacademy.io/api/hl/markets/ordi-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'ordi-perp', 'type': 'perp', 'coin': 'ORDI', 'name': 'ORDI Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 8.2155, 'funding': None, 'openInterestUsd': None, 'volumeBase': 47528.15}, {'time': '2025-09-02T00:00:00.000Z', 'price': 8.6256, 'funding': None, 'openInterestUsd': None, 'volumeBa"
+  },
+  "HMSTR": {
+    "url": "https://hyperacademy.io/api/hl/markets/hmstr-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'hmstr-perp', 'type': 'perp', 'coin': 'HMSTR', 'name': 'HMSTR Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.000653, 'funding': None, 'openInterestUsd': None, 'volumeBase': 133325094}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.000683, 'funding': None, 'openInterestUsd': None, '"
+  },
+  "FET": {
+    "url": "https://hyperacademy.io/api/hl/markets/fet-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'fet-perp', 'type': 'perp', 'coin': 'FET', 'name': 'FET Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.5907, 'funding': None, 'openInterestUsd': None, 'volumeBase': 1523609}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.61663, 'funding': None, 'openInterestUsd': None, 'volumeBase'"
+  },
+  "BLUR": {
+    "url": "https://hyperacademy.io/api/hl/markets/blur-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'blur-perp', 'type': 'perp', 'coin': 'BLUR', 'name': 'BLUR Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.073935, 'funding': None, 'openInterestUsd': None, 'volumeBase': 2791940}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.076025, 'funding': None, 'openInterestUsd': None, 'volum"
+  },
+  "SAGA": {
+    "url": "https://hyperacademy.io/api/hl/markets/saga-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'saga-perp', 'type': 'perp', 'coin': 'SAGA', 'name': 'SAGA Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.22751, 'funding': None, 'openInterestUsd': None, 'volumeBase': 893402.9}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.23972, 'funding': None, 'openInterestUsd': None, 'volume"
+  },
+  "NOT": {
+    "url": "https://hyperacademy.io/api/hl/markets/not-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'not-perp', 'type': 'perp', 'coin': 'NOT', 'name': 'NOT Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.001731, 'funding': None, 'openInterestUsd': None, 'volumeBase': 67615062}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.001804, 'funding': None, 'openInterestUsd': None, 'volumeB"
+  },
+  "DYDX": {
+    "url": "https://hyperacademy.io/api/hl/markets/dydx-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'dydx-perp', 'type': 'perp', 'coin': 'DYDX', 'name': 'DYDX Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.5778, 'funding': None, 'openInterestUsd': None, 'volumeBase': 1112891}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.59986, 'funding': None, 'openInterestUsd': None, 'volumeBa"
+  },
+  "RUNE": {
+    "url": "https://hyperacademy.io/api/hl/markets/rune-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'rune-perp', 'type': 'perp', 'coin': 'RUNE', 'name': 'RUNE Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 1.1411, 'funding': None, 'openInterestUsd': None, 'volumeBase': 731720.7}, {'time': '2025-09-02T00:00:00.000Z', 'price': 1.203, 'funding': None, 'openInterestUsd': None, 'volumeBas"
+  },
+  "SKR": {
+    "url": "https://hyperacademy.io/api/hl/markets/skr-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'skr-perp', 'type': 'perp', 'coin': 'SKR', 'name': 'SKR Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2026-01-22T00:00:00.000Z', 'price': 0.042664, 'funding': None, 'openInterestUsd': None, 'volumeBase': 761732542}, {'time': '2026-01-23T00:00:00.000Z', 'price': 0.03086, 'funding': None, 'openInterestUsd': None, 'volumeB"
+  },
+  "INIT": {
+    "url": "https://hyperacademy.io/api/hl/markets/init-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'init-perp', 'type': 'perp', 'coin': 'INIT', 'name': 'INIT Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.31201, 'funding': None, 'openInterestUsd': None, 'volumeBase': 3255808}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.32457, 'funding': None, 'openInterestUsd': None, 'volumeB"
+  },
+  "ACE": {
+    "url": "https://hyperacademy.io/api/hl/markets/ace-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'ace-perp', 'type': 'perp', 'coin': 'ACE', 'name': 'ACE Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.4939, 'funding': None, 'openInterestUsd': None, 'volumeBase': 177053.84}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.5109, 'funding': None, 'openInterestUsd': None, 'volumeBase"
+  },
+  "BOME": {
+    "url": "https://hyperacademy.io/api/hl/markets/bome-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'bome-perp', 'type': 'perp', 'coin': 'BOME', 'name': 'BOME Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.001806, 'funding': None, 'openInterestUsd': None, 'volumeBase': 323869056}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.001933, 'funding': None, 'openInterestUsd': None, 'vol"
+  },
+  "CFX": {
+    "url": "https://hyperacademy.io/api/hl/markets/cfx-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'cfx-perp', 'type': 'perp', 'coin': 'CFX', 'name': 'CFX Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.17619, 'funding': None, 'openInterestUsd': None, 'volumeBase': 5277687}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.17622, 'funding': None, 'openInterestUsd': None, 'volumeBase"
+  },
+  "PNUT": {
+    "url": "https://hyperacademy.io/api/hl/markets/pnut-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'pnut-perp', 'type': 'perp', 'coin': 'PNUT', 'name': 'PNUT Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.1935, 'funding': None, 'openInterestUsd': None, 'volumeBase': 7571415.9}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.20676, 'funding': None, 'openInterestUsd': None, 'volume"
+  },
+  "POLYX": {
+    "url": "https://hyperacademy.io/api/hl/markets/polyx-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'polyx-perp', 'type': 'perp', 'coin': 'POLYX', 'name': 'POLYX Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.12692, 'funding': None, 'openInterestUsd': None, 'volumeBase': 662746}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.12922, 'funding': None, 'openInterestUsd': None, 'volum"
+  },
+  "MELANIA": {
+    "url": "https://hyperacademy.io/api/hl/markets/melania-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'melania-perp', 'type': 'perp', 'coin': 'MELANIA', 'name': 'MELANIA Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.19064, 'funding': None, 'openInterestUsd': None, 'volumeBase': 14782510.7}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.19529, 'funding': None, 'openInterestUsd': No"
+  },
+  "W": {
+    "url": "https://hyperacademy.io/api/hl/markets/w-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'w-perp', 'type': 'perp', 'coin': 'W', 'name': 'W Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.07783, 'funding': None, 'openInterestUsd': None, 'volumeBase': 8885108.8}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.07831, 'funding': None, 'openInterestUsd': None, 'volumeBase': 6"
+  },
+  "KAS": {
+    "url": "https://hyperacademy.io/api/hl/markets/kas-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'kas-perp', 'type': 'perp', 'coin': 'KAS', 'name': 'KAS Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.082437, 'funding': None, 'openInterestUsd': None, 'volumeBase': 4724145}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.08416, 'funding': None, 'openInterestUsd': None, 'volumeBas"
+  },
+  "FOGO": {
+    "url": "https://hyperacademy.io/api/hl/markets/fogo-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'fogo-perp', 'type': 'perp', 'coin': 'FOGO', 'name': 'FOGO Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-12-11T00:00:00.000Z', 'price': 0.12502, 'funding': None, 'openInterestUsd': None, 'volumeBase': 8510290}, {'time': '2025-12-12T00:00:00.000Z', 'price': 0.073131, 'funding': None, 'openInterestUsd': None, 'volume"
+  },
+  "SAND": {
+    "url": "https://hyperacademy.io/api/hl/markets/sand-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'sand-perp', 'type': 'perp', 'coin': 'SAND', 'name': 'SAND Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.26844, 'funding': None, 'openInterestUsd': None, 'volumeBase': 1397850}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.27673, 'funding': None, 'openInterestUsd': None, 'volumeB"
+  },
+  "YGG": {
+    "url": "https://hyperacademy.io/api/hl/markets/ygg-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'ygg-perp', 'type': 'perp', 'coin': 'YGG', 'name': 'YGG Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.14881, 'funding': None, 'openInterestUsd': None, 'volumeBase': 591384}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.15294, 'funding': None, 'openInterestUsd': None, 'volumeBase'"
+  },
+  "SNX": {
+    "url": "https://hyperacademy.io/api/hl/markets/snx-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'snx-perp', 'type': 'perp', 'coin': 'SNX', 'name': 'SNX Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.65872, 'funding': None, 'openInterestUsd': None, 'volumeBase': 335877.4}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.6799, 'funding': None, 'openInterestUsd': None, 'volumeBase"
+  },
+  "IMX": {
+    "url": "https://hyperacademy.io/api/hl/markets/imx-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'imx-perp', 'type': 'perp', 'coin': 'IMX', 'name': 'IMX Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.49783, 'funding': None, 'openInterestUsd': None, 'volumeBase': 660672}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.52221, 'funding': None, 'openInterestUsd': None, 'volumeBase'"
+  },
+  "TRB": {
+    "url": "https://hyperacademy.io/api/hl/markets/trb-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'trb-perp', 'type': 'perp', 'coin': 'TRB', 'name': 'TRB Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 32.076, 'funding': None, 'openInterestUsd': None, 'volumeBase': 19727.99}, {'time': '2025-09-02T00:00:00.000Z', 'price': 33.568, 'funding': None, 'openInterestUsd': None, 'volumeBase'"
+  },
+  "ME": {
+    "url": "https://hyperacademy.io/api/hl/markets/me-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'me-perp', 'type': 'perp', 'coin': 'ME', 'name': 'ME Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.658, 'funding': None, 'openInterestUsd': None, 'volumeBase': 132274.6}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.67264, 'funding': None, 'openInterestUsd': None, 'volumeBase': 3"
+  },
+  "REZ": {
+    "url": "https://hyperacademy.io/api/hl/markets/rez-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'rez-perp', 'type': 'perp', 'coin': 'REZ', 'name': 'REZ Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.011445, 'funding': None, 'openInterestUsd': None, 'volumeBase': 5838139}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.011717, 'funding': None, 'openInterestUsd': None, 'volumeBa"
+  },
+  "HEMI": {
+    "url": "https://hyperacademy.io/api/hl/markets/hemi-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'hemi-perp', 'type': 'perp', 'coin': 'HEMI', 'name': 'HEMI Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.033129, 'funding': None, 'openInterestUsd': None, 'volumeBase': 0}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.044124, 'funding': None, 'openInterestUsd': None, 'volumeBase'"
+  },
+  "PEOPLE": {
+    "url": "https://hyperacademy.io/api/hl/markets/people-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'people-perp', 'type': 'perp', 'coin': 'PEOPLE', 'name': 'PEOPLE Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.017678, 'funding': None, 'openInterestUsd': None, 'volumeBase': 12715027}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.01853, 'funding': None, 'openInterestUsd': None, "
+  },
+  "SUSHI": {
+    "url": "https://hyperacademy.io/api/hl/markets/sushi-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'sushi-perp', 'type': 'perp', 'coin': 'SUSHI', 'name': 'SUSHI Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.72738, 'funding': None, 'openInterestUsd': None, 'volumeBase': 617679.9}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.76108, 'funding': None, 'openInterestUsd': None, 'vol"
+  },
+  "MANTA": {
+    "url": "https://hyperacademy.io/api/hl/markets/manta-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'manta-perp', 'type': 'perp', 'coin': 'MANTA', 'name': 'MANTA Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.19248, 'funding': None, 'openInterestUsd': None, 'volumeBase': 613670.3}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.19767, 'funding': None, 'openInterestUsd': None, 'vol"
+  },
+  "UMA": {
+    "url": "https://hyperacademy.io/api/hl/markets/uma-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'uma-perp', 'type': 'perp', 'coin': 'UMA', 'name': 'UMA Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 1.345, 'funding': None, 'openInterestUsd': None, 'volumeBase': 340211.8}, {'time': '2025-09-02T00:00:00.000Z', 'price': 1.3613, 'funding': None, 'openInterestUsd': None, 'volumeBase':"
+  },
+  "MOVE": {
+    "url": "https://hyperacademy.io/api/hl/markets/move-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'move-perp', 'type': 'perp', 'coin': 'MOVE', 'name': 'MOVE Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.116, 'funding': None, 'openInterestUsd': None, 'volumeBase': 3179409}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.11867, 'funding': None, 'openInterestUsd': None, 'volumeBas"
+  },
+  "ANIME": {
+    "url": "https://hyperacademy.io/api/hl/markets/anime-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'anime-perp', 'type': 'perp', 'coin': 'ANIME', 'name': 'ANIME Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.015067, 'funding': None, 'openInterestUsd': None, 'volumeBase': 37852232}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.015381, 'funding': None, 'openInterestUsd': None, 'v"
+  },
+  "GMT": {
+    "url": "https://hyperacademy.io/api/hl/markets/gmt-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'gmt-perp', 'type': 'perp', 'coin': 'GMT', 'name': 'GMT Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.040589, 'funding': None, 'openInterestUsd': None, 'volumeBase': 5497185}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.04145, 'funding': None, 'openInterestUsd': None, 'volumeBas"
+  },
+  "GALA": {
+    "url": "https://hyperacademy.io/api/hl/markets/gala-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'gala-perp', 'type': 'perp', 'coin': 'GALA', 'name': 'GALA Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.015579, 'funding': None, 'openInterestUsd': None, 'volumeBase': 40746711}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.016116, 'funding': None, 'openInterestUsd': None, 'volu"
+  },
+  "MERL": {
+    "url": "https://hyperacademy.io/api/hl/markets/merl-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'merl-perp', 'type': 'perp', 'coin': 'MERL', 'name': 'MERL Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.12112, 'funding': None, 'openInterestUsd': None, 'volumeBase': 7480541}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.15731, 'funding': None, 'openInterestUsd': None, 'volumeB"
+  },
+  "GMX": {
+    "url": "https://hyperacademy.io/api/hl/markets/gmx-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'gmx-perp', 'type': 'perp', 'coin': 'GMX', 'name': 'GMX Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 14.2, 'funding': None, 'openInterestUsd': None, 'volumeBase': 29002.59}, {'time': '2025-09-02T00:00:00.000Z', 'price': 14.729, 'funding': None, 'openInterestUsd': None, 'volumeBase': "
+  },
+  "HYPER": {
+    "url": "https://hyperacademy.io/api/hl/markets/hyper-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'hyper-perp', 'type': 'perp', 'coin': 'HYPER', 'name': 'HYPER Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.28572, 'funding': None, 'openInterestUsd': None, 'volumeBase': 1877856}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.2944, 'funding': None, 'openInterestUsd': None, 'volum"
+  },
+  "NXPC": {
+    "url": "https://hyperacademy.io/api/hl/markets/nxpc-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'nxpc-perp', 'type': 'perp', 'coin': 'NXPC', 'name': 'NXPC Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.66668, 'funding': None, 'openInterestUsd': None, 'volumeBase': 1018318}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.67431, 'funding': None, 'openInterestUsd': None, 'volumeB"
+  },
+  "LAYER": {
+    "url": "https://hyperacademy.io/api/hl/markets/layer-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'layer-perp', 'type': 'perp', 'coin': 'LAYER', 'name': 'LAYER Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.5051, 'funding': None, 'openInterestUsd': None, 'volumeBase': 398295}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.51157, 'funding': None, 'openInterestUsd': None, 'volume"
+  },
+  "GAS": {
+    "url": "https://hyperacademy.io/api/hl/markets/gas-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'gas-perp', 'type': 'perp', 'coin': 'GAS', 'name': 'GAS Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 3.207, 'funding': None, 'openInterestUsd': None, 'volumeBase': 31761.5}, {'time': '2025-09-02T00:00:00.000Z', 'price': 3.2509, 'funding': None, 'openInterestUsd': None, 'volumeBase': "
+  },
+  "GOAT": {
+    "url": "https://hyperacademy.io/api/hl/markets/goat-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'goat-perp', 'type': 'perp', 'coin': 'GOAT', 'name': 'GOAT Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.07641, 'funding': None, 'openInterestUsd': None, 'volumeBase': 8508079}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.083091, 'funding': None, 'openInterestUsd': None, 'volume"
+  },
+  "ZETA": {
+    "url": "https://hyperacademy.io/api/hl/markets/zeta-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'zeta-perp', 'type': 'perp', 'coin': 'ZETA', 'name': 'ZETA Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.1791, 'funding': None, 'openInterestUsd': None, 'volumeBase': 536682.5}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.18211, 'funding': None, 'openInterestUsd': None, 'volumeB"
+  },
+  "SUPER": {
+    "url": "https://hyperacademy.io/api/hl/markets/super-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'super-perp', 'type': 'perp', 'coin': 'SUPER', 'name': 'SUPER Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.55065, 'funding': None, 'openInterestUsd': None, 'volumeBase': 283734}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.5624, 'funding': None, 'openInterestUsd': None, 'volume"
+  },
+  "XAI": {
+    "url": "https://hyperacademy.io/api/hl/markets/xai-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'xai-perp', 'type': 'perp', 'coin': 'XAI', 'name': 'XAI Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.04561, 'funding': None, 'openInterestUsd': None, 'volumeBase': 4428572.2}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.04653, 'funding': None, 'openInterestUsd': None, 'volumeBa"
+  },
+  "TNSR": {
+    "url": "https://hyperacademy.io/api/hl/markets/tnsr-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'tnsr-perp', 'type': 'perp', 'coin': 'TNSR', 'name': 'TNSR Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.10924, 'funding': None, 'openInterestUsd': None, 'volumeBase': 742114.1}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.11533, 'funding': None, 'openInterestUsd': None, 'volume"
+  },
+  "RSR": {
+    "url": "https://hyperacademy.io/api/hl/markets/rsr-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'rsr-perp', 'type': 'perp', 'coin': 'RSR', 'name': 'RSR Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.007124, 'funding': None, 'openInterestUsd': None, 'volumeBase': 39183372}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.007672, 'funding': None, 'openInterestUsd': None, 'volumeB"
+  },
+  "LUNC": {
+    "url": "https://hyperacademy.io/api/hl/markets/lunc-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "error": "HTTPError('404 Client Error: Not Found for url: https://hyperacademy.io/api/hl/markets/lunc-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily')"
+  },
+  "CELO": {
+    "url": "https://hyperacademy.io/api/hl/markets/celo-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'celo-perp', 'type': 'perp', 'coin': 'CELO', 'name': 'CELO Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.29988, 'funding': None, 'openInterestUsd': None, 'volumeBase': 448754}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.30158, 'funding': None, 'openInterestUsd': None, 'volumeBa"
+  },
+  "MINA": {
+    "url": "https://hyperacademy.io/api/hl/markets/mina-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'mina-perp', 'type': 'perp', 'coin': 'MINA', 'name': 'MINA Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.1744, 'funding': None, 'openInterestUsd': None, 'volumeBase': 685996}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.17958, 'funding': None, 'openInterestUsd': None, 'volumeBas"
+  },
+  "USUAL": {
+    "url": "https://hyperacademy.io/api/hl/markets/usual-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'usual-perp', 'type': 'perp', 'coin': 'USUAL', 'name': 'USUAL Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.05944, 'funding': None, 'openInterestUsd': None, 'volumeBase': 7555390.8}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.06039, 'funding': None, 'openInterestUsd': None, 'vo"
+  },
+  "BIGTIME": {
+    "url": "https://hyperacademy.io/api/hl/markets/bigtime-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'bigtime-perp', 'type': 'perp', 'coin': 'BIGTIME', 'name': 'BIGTIME Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.050869, 'funding': None, 'openInterestUsd': None, 'volumeBase': 24526728}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.052201, 'funding': None, 'openInterestUsd': No"
+  },
+  "BABY": {
+    "url": "https://hyperacademy.io/api/hl/markets/baby-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'baby-perp', 'type': 'perp', 'coin': 'BABY', 'name': 'BABY Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.043149, 'funding': None, 'openInterestUsd': None, 'volumeBase': 5036036}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.045192, 'funding': None, 'openInterestUsd': None, 'volum"
+  },
+  "NEIRO": {
+    "url": "https://hyperacademy.io/api/hl/markets/kneiro-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'kneiro-perp', 'type': 'perp', 'coin': 'kNEIRO', 'name': 'kNEIRO Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.32065, 'funding': None, 'openInterestUsd': None, 'volumeBase': 1842357.4}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.33525, 'funding': None, 'openInterestUsd': None, "
+  },
+  "GRIFFAIN": {
+    "url": "https://hyperacademy.io/api/hl/markets/griffain-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'griffain-perp', 'type': 'perp', 'coin': 'GRIFFAIN', 'name': 'GRIFFAIN Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.029346, 'funding': None, 'openInterestUsd': None, 'volumeBase': 24886596}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.032425, 'funding': None, 'openInterestUsd':"
+  },
+  "ALT": {
+    "url": "https://hyperacademy.io/api/hl/markets/alt-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'alt-perp', 'type': 'perp', 'coin': 'ALT', 'name': 'ALT Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.03076, 'funding': None, 'openInterestUsd': None, 'volumeBase': 14410806}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.032104, 'funding': None, 'openInterestUsd': None, 'volumeBa"
+  },
+  "TURBO": {
+    "url": "https://hyperacademy.io/api/hl/markets/turbo-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'turbo-perp', 'type': 'perp', 'coin': 'TURBO', 'name': 'TURBO Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.003618, 'funding': None, 'openInterestUsd': None, 'volumeBase': 145106389}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.003805, 'funding': None, 'openInterestUsd': None, '"
+  },
+  "NEO": {
+    "url": "https://hyperacademy.io/api/hl/markets/neo-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'neo-perp', 'type': 'perp', 'coin': 'NEO', 'name': 'NEO Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 6.4312, 'funding': None, 'openInterestUsd': None, 'volumeBase': 107437.74}, {'time': '2025-09-02T00:00:00.000Z', 'price': 6.561, 'funding': None, 'openInterestUsd': None, 'volumeBase'"
+  },
+  "IOTA": {
+    "url": "https://hyperacademy.io/api/hl/markets/iota-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'iota-perp', 'type': 'perp', 'coin': 'IOTA', 'name': 'IOTA Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.18406, 'funding': None, 'openInterestUsd': None, 'volumeBase': 370144}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.18737, 'funding': None, 'openInterestUsd': None, 'volumeBa"
+  },
+  "AIXBT": {
+    "url": "https://hyperacademy.io/api/hl/markets/aixbt-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'aixbt-perp', 'type': 'perp', 'coin': 'AIXBT', 'name': 'AIXBT Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.094802, 'funding': None, 'openInterestUsd': None, 'volumeBase': 9562702}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.1021, 'funding': None, 'openInterestUsd': None, 'volu"
+  },
+  "RESOLV": {
+    "url": "https://hyperacademy.io/api/hl/markets/resolv-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'resolv-perp', 'type': 'perp', 'coin': 'RESOLV', 'name': 'RESOLV Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.13625, 'funding': None, 'openInterestUsd': None, 'volumeBase': 18651989}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.14066, 'funding': None, 'openInterestUsd': None, '"
+  },
+  "WCT": {
+    "url": "https://hyperacademy.io/api/hl/markets/wct-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'wct-perp', 'type': 'perp', 'coin': 'WCT', 'name': 'WCT Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.28367, 'funding': None, 'openInterestUsd': None, 'volumeBase': 634542}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.29209, 'funding': None, 'openInterestUsd': None, 'volumeBase'"
+  },
+  "BANANA": {
+    "url": "https://hyperacademy.io/api/hl/markets/banana-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'banana-perp', 'type': 'perp', 'coin': 'BANANA', 'name': 'BANANA Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 18.271, 'funding': None, 'openInterestUsd': None, 'volumeBase': 12585.9}, {'time': '2025-09-02T00:00:00.000Z', 'price': 18.164, 'funding': None, 'openInterestUsd': None, 'vol"
+  },
+  "SOPH": {
+    "url": "https://hyperacademy.io/api/hl/markets/soph-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'soph-perp', 'type': 'perp', 'coin': 'SOPH', 'name': 'SOPH Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.028565, 'funding': None, 'openInterestUsd': None, 'volumeBase': 27309138}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.029603, 'funding': None, 'openInterestUsd': None, 'volu"
+  },
+  "PURR": {
+    "url": "https://hyperacademy.io/api/hl/markets/purr-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'purr-perp', 'type': 'perp', 'coin': 'PURR', 'name': 'PURR Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.16747, 'funding': None, 'openInterestUsd': None, 'volumeBase': 25960322}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.174, 'funding': None, 'openInterestUsd': None, 'volumeBa"
+  },
+  "BSV": {
+    "url": "https://hyperacademy.io/api/hl/markets/bsv-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'bsv-perp', 'type': 'perp', 'coin': 'BSV', 'name': 'BSV Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 25.395, 'funding': None, 'openInterestUsd': None, 'volumeBase': 4647.59}, {'time': '2025-09-02T00:00:00.000Z', 'price': 25.85, 'funding': None, 'openInterestUsd': None, 'volumeBase': "
+  },
+  "BRETT": {
+    "url": "https://hyperacademy.io/api/hl/markets/brett-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'brett-perp', 'type': 'perp', 'coin': 'BRETT', 'name': 'BRETT Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.043911, 'funding': None, 'openInterestUsd': None, 'volumeBase': 18541311}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.045897, 'funding': None, 'openInterestUsd': None, 'v"
+  },
+  "MEME": {
+    "url": "https://hyperacademy.io/api/hl/markets/meme-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily",
+    "note": "no checkpoint values",
+    "payload_type": "dict",
+    "payload_preview": "{'attribution': 'Source: hyperacademy.io \u2014 free with attribution', 'market': {'slug': 'meme-perp', 'type': 'perp', 'coin': 'MEME', 'name': 'MEME Perpetual'}, 'query': {'from': '2025-09-01', 'to': '2026-09-30', 'granularity': 'daily', 'volumeUnit': 'base_units'}, 'points': [{'time': '2025-09-01T00:00:00.000Z', 'price': 0.002521, 'funding': None, 'openInterestUsd': None, 'volumeBase': 472668268}, {'time': '2025-09-02T00:00:00.000Z', 'price': 0.002532, 'funding': None, 'openInterestUsd': None, 'vol"
+  }
+}

@@ -1,0 +1,2775 @@
+{
+  "attribution": "Source: hyperacademy.io \u2014 free with attribution",
+  "market": {
+    "slug": "btc-perp",
+    "type": "perp",
+    "coin": "BTC",
+    "name": "BTC Perpetual"
+  },
+  "query": {
+    "from": "2025-09-01",
+    "to": "2026-09-30",
+    "granularity": "daily",
+    "volumeUnit": "base_units"
+  },
+  "points": [
+    {
+      "time": "2025-09-01T00:00:00.000Z",
+      "price": 109222,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 38302.12374
+    },
+    {
+      "time": "2025-09-02T00:00:00.000Z",
+      "price": 111225,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 40020.48749
+    },
+    {
+      "time": "2025-09-03T00:00:00.000Z",
+      "price": 111670,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 24817.38155
+    },
+    {
+      "time": "2025-09-04T00:00:00.000Z",
+      "price": 110741,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 29396.95695
+    },
+    {
+      "time": "2025-09-05T00:00:00.000Z",
+      "price": 110646,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 44217.47558
+    },
+    {
+      "time": "2025-09-06T00:00:00.000Z",
+      "price": 110139,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 8293.08299
+    },
+    {
+      "time": "2025-09-07T00:00:00.000Z",
+      "price": 111102,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 9486.4992
+    },
+    {
+      "time": "2025-09-08T00:00:00.000Z",
+      "price": 112035,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 24355.93502
+    },
+    {
+      "time": "2025-09-09T00:00:00.000Z",
+      "price": 111563,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 29559.56245
+    },
+    {
+      "time": "2025-09-10T00:00:00.000Z",
+      "price": 113954,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 30717.43315
+    },
+    {
+      "time": "2025-09-11T00:00:00.000Z",
+      "price": 115489,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 26924.09097
+    },
+    {
+      "time": "2025-09-12T00:00:00.000Z",
+      "price": 116023,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 25960.54257
+    },
+    {
+      "time": "2025-09-13T00:00:00.000Z",
+      "price": 115908,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 11477.14136
+    },
+    {
+      "time": "2025-09-14T00:00:00.000Z",
+      "price": 115276,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 12992.26106
+    },
+    {
+      "time": "2025-09-15T00:00:00.000Z",
+      "price": 115370,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 27643.70709
+    },
+    {
+      "time": "2025-09-16T00:00:00.000Z",
+      "price": 116761,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 23952.26983
+    },
+    {
+      "time": "2025-09-17T00:00:00.000Z",
+      "price": 116466,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 39404.08222
+    },
+    {
+      "time": "2025-09-18T00:00:00.000Z",
+      "price": 117110,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 29192.21404
+    },
+    {
+      "time": "2025-09-19T00:00:00.000Z",
+      "price": 115674,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 22917.01383
+    },
+    {
+      "time": "2025-09-20T00:00:00.000Z",
+      "price": 115686,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 7472.28558
+    },
+    {
+      "time": "2025-09-21T00:00:00.000Z",
+      "price": 115278,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 9247.28576
+    },
+    {
+      "time": "2025-09-22T00:00:00.000Z",
+      "price": 112638,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 48210.62969
+    },
+    {
+      "time": "2025-09-23T00:00:00.000Z",
+      "price": 111976,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 25463.37996
+    },
+    {
+      "time": "2025-09-24T00:00:00.000Z",
+      "price": 113277,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 26961.7518
+    },
+    {
+      "time": "2025-09-25T00:00:00.000Z",
+      "price": 108962,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 46787.52143
+    },
+    {
+      "time": "2025-09-26T00:00:00.000Z",
+      "price": 109614,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 20519.21579
+    },
+    {
+      "time": "2025-09-27T00:00:00.000Z",
+      "price": 109599,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 5919.12207
+    },
+    {
+      "time": "2025-09-28T00:00:00.000Z",
+      "price": 112130,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 15334.19847
+    },
+    {
+      "time": "2025-09-29T00:00:00.000Z",
+      "price": 114274,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 21589.03286
+    },
+    {
+      "time": "2025-09-30T00:00:00.000Z",
+      "price": 114036,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 26663.5291
+    },
+    {
+      "time": "2025-10-01T00:00:00.000Z",
+      "price": 118572,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 30800.35287
+    },
+    {
+      "time": "2025-10-02T00:00:00.000Z",
+      "price": 120516,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 32526.97382
+    },
+    {
+      "time": "2025-10-03T00:00:00.000Z",
+      "price": 122266,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 36035.65764
+    },
+    {
+      "time": "2025-10-04T00:00:00.000Z",
+      "price": 122455,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 12257.73306
+    },
+    {
+      "time": "2025-10-05T00:00:00.000Z",
+      "price": 123570,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 35591.96372
+    },
+    {
+      "time": "2025-10-06T00:00:00.000Z",
+      "price": 124711,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 33762.64971
+    },
+    {
+      "time": "2025-10-07T00:00:00.000Z",
+      "price": 121401,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 51504.96722
+    },
+    {
+      "time": "2025-10-08T00:00:00.000Z",
+      "price": 123385,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 26685.83627
+    },
+    {
+      "time": "2025-10-09T00:00:00.000Z",
+      "price": 121615,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 43595.79239
+    },
+    {
+      "time": "2025-10-10T00:00:00.000Z",
+      "price": 112761,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 99311.91521
+    },
+    {
+      "time": "2025-10-11T00:00:00.000Z",
+      "price": 110592,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 28144.52965
+    },
+    {
+      "time": "2025-10-12T00:00:00.000Z",
+      "price": 114940,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 39314.43351
+    },
+    {
+      "time": "2025-10-13T00:00:00.000Z",
+      "price": 115124,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 29040.11123
+    },
+    {
+      "time": "2025-10-14T00:00:00.000Z",
+      "price": 113020,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 65437.99719
+    },
+    {
+      "time": "2025-10-15T00:00:00.000Z",
+      "price": 110730,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 39687.92868
+    },
+    {
+      "time": "2025-10-16T00:00:00.000Z",
+      "price": 108221,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 45522.23837
+    },
+    {
+      "time": "2025-10-17T00:00:00.000Z",
+      "price": 106396,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 45987.94596
+    },
+    {
+      "time": "2025-10-18T00:00:00.000Z",
+      "price": 107143,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 10954.55774
+    },
+    {
+      "time": "2025-10-19T00:00:00.000Z",
+      "price": 108591,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 20172.98134
+    },
+    {
+      "time": "2025-10-20T00:00:00.000Z",
+      "price": 110479,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 35286.43348
+    },
+    {
+      "time": "2025-10-21T00:00:00.000Z",
+      "price": 108245,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 73294.67742
+    },
+    {
+      "time": "2025-10-22T00:00:00.000Z",
+      "price": 107528,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 64183.0458
+    },
+    {
+      "time": "2025-10-23T00:00:00.000Z",
+      "price": 110063,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 40235.8972
+    },
+    {
+      "time": "2025-10-24T00:00:00.000Z",
+      "price": 111060,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 27163.12633
+    },
+    {
+      "time": "2025-10-25T00:00:00.000Z",
+      "price": 111683,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 12149.47673
+    },
+    {
+      "time": "2025-10-26T00:00:00.000Z",
+      "price": 114601,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 23675.33105
+    },
+    {
+      "time": "2025-10-27T00:00:00.000Z",
+      "price": 114111,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 27613.04903
+    },
+    {
+      "time": "2025-10-28T00:00:00.000Z",
+      "price": 112864,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 38813.93747
+    },
+    {
+      "time": "2025-10-29T00:00:00.000Z",
+      "price": 110102,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 41238.50086
+    },
+    {
+      "time": "2025-10-30T00:00:00.000Z",
+      "price": 108360,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 54305.92388
+    },
+    {
+      "time": "2025-10-31T00:00:00.000Z",
+      "price": 109587,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 32714.8499
+    },
+    {
+      "time": "2025-11-01T00:00:00.000Z",
+      "price": 110120,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 9414.99634
+    },
+    {
+      "time": "2025-11-02T00:00:00.000Z",
+      "price": 110529,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 14229.54974
+    },
+    {
+      "time": "2025-11-03T00:00:00.000Z",
+      "price": 106527,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 50039.63271
+    },
+    {
+      "time": "2025-11-04T00:00:00.000Z",
+      "price": 101460,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 77683.00229
+    },
+    {
+      "time": "2025-11-05T00:00:00.000Z",
+      "price": 103925,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 36697.68574
+    },
+    {
+      "time": "2025-11-06T00:00:00.000Z",
+      "price": 101313,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 48748.57263
+    },
+    {
+      "time": "2025-11-07T00:00:00.000Z",
+      "price": 103300,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 47460.67634
+    },
+    {
+      "time": "2025-11-08T00:00:00.000Z",
+      "price": 102269,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 19780.17331
+    },
+    {
+      "time": "2025-11-09T00:00:00.000Z",
+      "price": 104753,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 24778.92294
+    },
+    {
+      "time": "2025-11-10T00:00:00.000Z",
+      "price": 106015,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 34097.24946
+    },
+    {
+      "time": "2025-11-11T00:00:00.000Z",
+      "price": 103034,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 34924.78234
+    },
+    {
+      "time": "2025-11-12T00:00:00.000Z",
+      "price": 101623,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 32120.04863
+    },
+    {
+      "time": "2025-11-13T00:00:00.000Z",
+      "price": 99735,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 67775.11888
+    },
+    {
+      "time": "2025-11-14T00:00:00.000Z",
+      "price": 94634,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 80808.54786
+    },
+    {
+      "time": "2025-11-15T00:00:00.000Z",
+      "price": 95592,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 23296.51139
+    },
+    {
+      "time": "2025-11-16T00:00:00.000Z",
+      "price": 94291,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 33721.88896
+    },
+    {
+      "time": "2025-11-17T00:00:00.000Z",
+      "price": 92272,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 48567.81882
+    },
+    {
+      "time": "2025-11-18T00:00:00.000Z",
+      "price": 92972,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 51225.64156
+    },
+    {
+      "time": "2025-11-19T00:00:00.000Z",
+      "price": 91554,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 48841.92376
+    },
+    {
+      "time": "2025-11-20T00:00:00.000Z",
+      "price": 86650,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 54189.37633
+    },
+    {
+      "time": "2025-11-21T00:00:00.000Z",
+      "price": 85111,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 102959.29396
+    },
+    {
+      "time": "2025-11-22T00:00:00.000Z",
+      "price": 84711,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 25320.67791
+    },
+    {
+      "time": "2025-11-23T00:00:00.000Z",
+      "price": 86807,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 39151.12811
+    },
+    {
+      "time": "2025-11-24T00:00:00.000Z",
+      "price": 88232,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 51784.47511
+    },
+    {
+      "time": "2025-11-25T00:00:00.000Z",
+      "price": 87332,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 40076.20686
+    },
+    {
+      "time": "2025-11-26T00:00:00.000Z",
+      "price": 90420,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 36358.1801
+    },
+    {
+      "time": "2025-11-27T00:00:00.000Z",
+      "price": 91310,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 26482.45972
+    },
+    {
+      "time": "2025-11-28T00:00:00.000Z",
+      "price": 90842,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 30944.38487
+    },
+    {
+      "time": "2025-11-29T00:00:00.000Z",
+      "price": 90768,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 12400.6421
+    },
+    {
+      "time": "2025-11-30T00:00:00.000Z",
+      "price": 90326,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 11989.16095
+    },
+    {
+      "time": "2025-12-01T00:00:00.000Z",
+      "price": 86216,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 68144.61692
+    },
+    {
+      "time": "2025-12-02T00:00:00.000Z",
+      "price": 91237,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 46709.44352
+    },
+    {
+      "time": "2025-12-03T00:00:00.000Z",
+      "price": 93395,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 39397.84212
+    },
+    {
+      "time": "2025-12-04T00:00:00.000Z",
+      "price": 92034,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 30753.60378
+    },
+    {
+      "time": "2025-12-05T00:00:00.000Z",
+      "price": 89294,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 38747.49449
+    },
+    {
+      "time": "2025-12-06T00:00:00.000Z",
+      "price": 89181,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 12661.86354
+    },
+    {
+      "time": "2025-12-07T00:00:00.000Z",
+      "price": 90344,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 33094.5518
+    },
+    {
+      "time": "2025-12-08T00:00:00.000Z",
+      "price": 90594,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 32637.88187
+    },
+    {
+      "time": "2025-12-09T00:00:00.000Z",
+      "price": 92654,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 42250.81202
+    },
+    {
+      "time": "2025-12-10T00:00:00.000Z",
+      "price": 91961,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 42666.98875
+    },
+    {
+      "time": "2025-12-11T00:00:00.000Z",
+      "price": 92481,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 43832.38573
+    },
+    {
+      "time": "2025-12-12T00:00:00.000Z",
+      "price": 90228,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 28930.96278
+    },
+    {
+      "time": "2025-12-13T00:00:00.000Z",
+      "price": 90222,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 5584.85718
+    },
+    {
+      "time": "2025-12-14T00:00:00.000Z",
+      "price": 88128,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 16664.59379
+    },
+    {
+      "time": "2025-12-15T00:00:00.000Z",
+      "price": 86427,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 45276.57871
+    },
+    {
+      "time": "2025-12-16T00:00:00.000Z",
+      "price": 87814,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 29183.67405
+    },
+    {
+      "time": "2025-12-17T00:00:00.000Z",
+      "price": 86210,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 42828.64483
+    },
+    {
+      "time": "2025-12-18T00:00:00.000Z",
+      "price": 85477,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 50728.94671
+    },
+    {
+      "time": "2025-12-19T00:00:00.000Z",
+      "price": 88092,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 45578.10654
+    },
+    {
+      "time": "2025-12-20T00:00:00.000Z",
+      "price": 88317,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 8597.39678
+    },
+    {
+      "time": "2025-12-21T00:00:00.000Z",
+      "price": 88607,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 13507.28787
+    },
+    {
+      "time": "2025-12-22T00:00:00.000Z",
+      "price": 88573,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 36589.24944
+    },
+    {
+      "time": "2025-12-23T00:00:00.000Z",
+      "price": 87459,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 29635.90502
+    },
+    {
+      "time": "2025-12-24T00:00:00.000Z",
+      "price": 87653,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 19236.66439
+    },
+    {
+      "time": "2025-12-25T00:00:00.000Z",
+      "price": 87200,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 13857.7802
+    },
+    {
+      "time": "2025-12-26T00:00:00.000Z",
+      "price": 87339,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 27613.42715
+    },
+    {
+      "time": "2025-12-27T00:00:00.000Z",
+      "price": 87844,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 4559.90238
+    },
+    {
+      "time": "2025-12-28T00:00:00.000Z",
+      "price": 87928,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 9055.52282
+    },
+    {
+      "time": "2025-12-29T00:00:00.000Z",
+      "price": 87228,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 38628.25064
+    },
+    {
+      "time": "2025-12-30T00:00:00.000Z",
+      "price": 88466,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 19891.68889
+    },
+    {
+      "time": "2025-12-31T00:00:00.000Z",
+      "price": 87632,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 16544.41411
+    },
+    {
+      "time": "2026-01-01T00:00:00.000Z",
+      "price": 88809,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 10154.333
+    },
+    {
+      "time": "2026-01-02T00:00:00.000Z",
+      "price": 89932,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 37817.40422
+    },
+    {
+      "time": "2026-01-03T00:00:00.000Z",
+      "price": 90600,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 14142.70693
+    },
+    {
+      "time": "2026-01-04T00:00:00.000Z",
+      "price": 91511,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 15979.19943
+    },
+    {
+      "time": "2026-01-05T00:00:00.000Z",
+      "price": 93832,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 39930.7357
+    },
+    {
+      "time": "2026-01-06T00:00:00.000Z",
+      "price": 93801,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 38754.6579
+    },
+    {
+      "time": "2026-01-07T00:00:00.000Z",
+      "price": 91373,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 37511.8059
+    },
+    {
+      "time": "2026-01-08T00:00:00.000Z",
+      "price": 91079,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 38596.92738
+    },
+    {
+      "time": "2026-01-09T00:00:00.000Z",
+      "price": 90650,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 38891.18434
+    },
+    {
+      "time": "2026-01-10T00:00:00.000Z",
+      "price": 90485,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 4701.01364
+    },
+    {
+      "time": "2026-01-11T00:00:00.000Z",
+      "price": 90997,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 13190.68579
+    },
+    {
+      "time": "2026-01-12T00:00:00.000Z",
+      "price": 91249,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 39666.26483
+    },
+    {
+      "time": "2026-01-13T00:00:00.000Z",
+      "price": 95374,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 52162.0156
+    },
+    {
+      "time": "2026-01-14T00:00:00.000Z",
+      "price": 96917,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 43298.84874
+    },
+    {
+      "time": "2026-01-15T00:00:00.000Z",
+      "price": 95588,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 35711.3271
+    },
+    {
+      "time": "2026-01-16T00:00:00.000Z",
+      "price": 95586,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 20018.3746
+    },
+    {
+      "time": "2026-01-17T00:00:00.000Z",
+      "price": 95144,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 7220.82301
+    },
+    {
+      "time": "2026-01-18T00:00:00.000Z",
+      "price": 93621,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 12520.92287
+    },
+    {
+      "time": "2026-01-19T00:00:00.000Z",
+      "price": 92581,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 27498.5049
+    },
+    {
+      "time": "2026-01-20T00:00:00.000Z",
+      "price": 88404,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 50965.70558
+    },
+    {
+      "time": "2026-01-21T00:00:00.000Z",
+      "price": 89401,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 47470.78332
+    },
+    {
+      "time": "2026-01-22T00:00:00.000Z",
+      "price": 89500,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 26606.5332
+    },
+    {
+      "time": "2026-01-23T00:00:00.000Z",
+      "price": 89552,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 32823.78073
+    },
+    {
+      "time": "2026-01-24T00:00:00.000Z",
+      "price": 89171,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 4278.3421
+    },
+    {
+      "time": "2026-01-25T00:00:00.000Z",
+      "price": 86637,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 30708.28152
+    },
+    {
+      "time": "2026-01-26T00:00:00.000Z",
+      "price": 88299,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 32514.67284
+    },
+    {
+      "time": "2026-01-27T00:00:00.000Z",
+      "price": 89215,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 23366.84647
+    },
+    {
+      "time": "2026-01-28T00:00:00.000Z",
+      "price": 89276,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 38448.71668
+    },
+    {
+      "time": "2026-01-29T00:00:00.000Z",
+      "price": 84641,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 76798.79804
+    },
+    {
+      "time": "2026-01-30T00:00:00.000Z",
+      "price": 84241,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 64886.36751
+    },
+    {
+      "time": "2026-01-31T00:00:00.000Z",
+      "price": 78728,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 73446.05252
+    },
+    {
+      "time": "2026-02-01T00:00:00.000Z",
+      "price": 76928,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 52294.67411
+    },
+    {
+      "time": "2026-02-02T00:00:00.000Z",
+      "price": 78684,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 50420.37283
+    },
+    {
+      "time": "2026-02-03T00:00:00.000Z",
+      "price": 75731,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 67300.01598
+    },
+    {
+      "time": "2026-02-04T00:00:00.000Z",
+      "price": 73147,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 67327.30929
+    },
+    {
+      "time": "2026-02-05T00:00:00.000Z",
+      "price": 62894,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 174278.175
+    },
+    {
+      "time": "2026-02-06T00:00:00.000Z",
+      "price": 70516,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 118133.18505
+    },
+    {
+      "time": "2026-02-07T00:00:00.000Z",
+      "price": 69236,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 45175.48734
+    },
+    {
+      "time": "2026-02-08T00:00:00.000Z",
+      "price": 70297,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 30139.8785
+    },
+    {
+      "time": "2026-02-09T00:00:00.000Z",
+      "price": 70093,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 41623.22022
+    },
+    {
+      "time": "2026-02-10T00:00:00.000Z",
+      "price": 68801,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 36530.69076
+    },
+    {
+      "time": "2026-02-11T00:00:00.000Z",
+      "price": 67059,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 50439.86245
+    },
+    {
+      "time": "2026-02-12T00:00:00.000Z",
+      "price": 66244,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 44186.41671
+    },
+    {
+      "time": "2026-02-13T00:00:00.000Z",
+      "price": 68822,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 32502.90761
+    },
+    {
+      "time": "2026-02-14T00:00:00.000Z",
+      "price": 69792,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 18119.32706
+    },
+    {
+      "time": "2026-02-15T00:00:00.000Z",
+      "price": 68798,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 21027.17958
+    },
+    {
+      "time": "2026-02-16T00:00:00.000Z",
+      "price": 68870,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 23415.68511
+    },
+    {
+      "time": "2026-02-17T00:00:00.000Z",
+      "price": 67480,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 30980.19147
+    },
+    {
+      "time": "2026-02-18T00:00:00.000Z",
+      "price": 66436,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 33289.50546
+    },
+    {
+      "time": "2026-02-19T00:00:00.000Z",
+      "price": 66981,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 28562.68073
+    },
+    {
+      "time": "2026-02-20T00:00:00.000Z",
+      "price": 67980,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 41024.26662
+    },
+    {
+      "time": "2026-02-21T00:00:00.000Z",
+      "price": 67935,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 12003.69401
+    },
+    {
+      "time": "2026-02-22T00:00:00.000Z",
+      "price": 67602,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 12375.65783
+    },
+    {
+      "time": "2026-02-23T00:00:00.000Z",
+      "price": 64631,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 47709.43478
+    },
+    {
+      "time": "2026-02-24T00:00:00.000Z",
+      "price": 64015,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 50578.6995
+    },
+    {
+      "time": "2026-02-25T00:00:00.000Z",
+      "price": 67944,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 54277.64565
+    },
+    {
+      "time": "2026-02-26T00:00:00.000Z",
+      "price": 67453,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 38410.58301
+    },
+    {
+      "time": "2026-02-27T00:00:00.000Z",
+      "price": 65837,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 34280.05918
+    },
+    {
+      "time": "2026-02-28T00:00:00.000Z",
+      "price": 66931,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 52549.78553
+    },
+    {
+      "time": "2026-03-01T00:00:00.000Z",
+      "price": 65734,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 36117.75016
+    },
+    {
+      "time": "2026-03-02T00:00:00.000Z",
+      "price": 68774,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 51212.95685
+    },
+    {
+      "time": "2026-03-03T00:00:00.000Z",
+      "price": 68299,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 54591.70649
+    },
+    {
+      "time": "2026-03-04T00:00:00.000Z",
+      "price": 72633,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 69942.22419
+    },
+    {
+      "time": "2026-03-05T00:00:00.000Z",
+      "price": 70828,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 45069.03931
+    },
+    {
+      "time": "2026-03-06T00:00:00.000Z",
+      "price": 68082,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 56121.37958
+    },
+    {
+      "time": "2026-03-07T00:00:00.000Z",
+      "price": 67230,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 22543.40383
+    },
+    {
+      "time": "2026-03-08T00:00:00.000Z",
+      "price": 65933,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 35141.9929
+    },
+    {
+      "time": "2026-03-09T00:00:00.000Z",
+      "price": 68389,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 56214.78496
+    },
+    {
+      "time": "2026-03-10T00:00:00.000Z",
+      "price": 69898,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 48154.84483
+    },
+    {
+      "time": "2026-03-11T00:00:00.000Z",
+      "price": 70135,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 38344.86891
+    },
+    {
+      "time": "2026-03-12T00:00:00.000Z",
+      "price": 70500,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 33693.91576
+    },
+    {
+      "time": "2026-03-13T00:00:00.000Z",
+      "price": 70901,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 50934.14373
+    },
+    {
+      "time": "2026-03-14T00:00:00.000Z",
+      "price": 71180,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 15023.25374
+    },
+    {
+      "time": "2026-03-15T00:00:00.000Z",
+      "price": 72778,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 20698.63066
+    },
+    {
+      "time": "2026-03-16T00:00:00.000Z",
+      "price": 74854,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 43780.31008
+    },
+    {
+      "time": "2026-03-17T00:00:00.000Z",
+      "price": 73864,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 43841.14271
+    },
+    {
+      "time": "2026-03-18T00:00:00.000Z",
+      "price": 71213,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 40229.10859
+    },
+    {
+      "time": "2026-03-19T00:00:00.000Z",
+      "price": 69919,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 44324.95144
+    },
+    {
+      "time": "2026-03-20T00:00:00.000Z",
+      "price": 70474,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 35492.11162
+    },
+    {
+      "time": "2026-03-21T00:00:00.000Z",
+      "price": 68874,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 13669.69657
+    },
+    {
+      "time": "2026-03-22T00:00:00.000Z",
+      "price": 67831,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 29643.43416
+    },
+    {
+      "time": "2026-03-23T00:00:00.000Z",
+      "price": 70860,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 54028.20553
+    },
+    {
+      "time": "2026-03-24T00:00:00.000Z",
+      "price": 70553,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 38126.02634
+    },
+    {
+      "time": "2026-03-25T00:00:00.000Z",
+      "price": 71303,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 37014.70248
+    },
+    {
+      "time": "2026-03-26T00:00:00.000Z",
+      "price": 68806,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 35818.15022
+    },
+    {
+      "time": "2026-03-27T00:00:00.000Z",
+      "price": 66396,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 36622.00839
+    },
+    {
+      "time": "2026-03-28T00:00:00.000Z",
+      "price": 66353,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 14151.86905
+    },
+    {
+      "time": "2026-03-29T00:00:00.000Z",
+      "price": 65970,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 17549.8556
+    },
+    {
+      "time": "2026-03-30T00:00:00.000Z",
+      "price": 66766,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 29827.48958
+    },
+    {
+      "time": "2026-03-31T00:00:00.000Z",
+      "price": 68244,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 51041.80962
+    },
+    {
+      "time": "2026-04-01T00:00:00.000Z",
+      "price": 68084,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 36481.94998
+    },
+    {
+      "time": "2026-04-02T00:00:00.000Z",
+      "price": 66866,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 42345.09695
+    },
+    {
+      "time": "2026-04-03T00:00:00.000Z",
+      "price": 66942,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 20921.43336
+    },
+    {
+      "time": "2026-04-04T00:00:00.000Z",
+      "price": 67264,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 9142.47123
+    },
+    {
+      "time": "2026-04-05T00:00:00.000Z",
+      "price": 68988,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 21049.15722
+    },
+    {
+      "time": "2026-04-06T00:00:00.000Z",
+      "price": 68818,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 40551.19937
+    },
+    {
+      "time": "2026-04-07T00:00:00.000Z",
+      "price": 71919,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 49182.17309
+    },
+    {
+      "time": "2026-04-08T00:00:00.000Z",
+      "price": 71036,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 34431.95346
+    },
+    {
+      "time": "2026-04-09T00:00:00.000Z",
+      "price": 71758,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 41364.14995
+    },
+    {
+      "time": "2026-04-10T00:00:00.000Z",
+      "price": 72926,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 27098.2111
+    },
+    {
+      "time": "2026-04-11T00:00:00.000Z",
+      "price": 73015,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 13283.37634
+    },
+    {
+      "time": "2026-04-12T00:00:00.000Z",
+      "price": 70705,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 27032.2683
+    },
+    {
+      "time": "2026-04-13T00:00:00.000Z",
+      "price": 74387,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 41478.85656
+    },
+    {
+      "time": "2026-04-14T00:00:00.000Z",
+      "price": 74098,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 42416.42329
+    },
+    {
+      "time": "2026-04-15T00:00:00.000Z",
+      "price": 74774,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 29303.66208
+    },
+    {
+      "time": "2026-04-16T00:00:00.000Z",
+      "price": 75130,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 38828.68973
+    },
+    {
+      "time": "2026-04-17T00:00:00.000Z",
+      "price": 77021,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 44353.1104
+    },
+    {
+      "time": "2026-04-18T00:00:00.000Z",
+      "price": 75642,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 19165.99711
+    },
+    {
+      "time": "2026-04-19T00:00:00.000Z",
+      "price": 73741,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 26973.61046
+    },
+    {
+      "time": "2026-04-20T00:00:00.000Z",
+      "price": 75802,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 29061.78236
+    },
+    {
+      "time": "2026-04-21T00:00:00.000Z",
+      "price": 76288,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 38474.72766
+    },
+    {
+      "time": "2026-04-22T00:00:00.000Z",
+      "price": 78137,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 35975.98792
+    },
+    {
+      "time": "2026-04-23T00:00:00.000Z",
+      "price": 78226,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 38171.44513
+    },
+    {
+      "time": "2026-04-24T00:00:00.000Z",
+      "price": 77402,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 24693.75028
+    },
+    {
+      "time": "2026-04-25T00:00:00.000Z",
+      "price": 77582,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 9436.65116
+    },
+    {
+      "time": "2026-04-26T00:00:00.000Z",
+      "price": 78615,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 15318.6955
+    },
+    {
+      "time": "2026-04-27T00:00:00.000Z",
+      "price": 77320,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 30555.1805
+    },
+    {
+      "time": "2026-04-28T00:00:00.000Z",
+      "price": 76297,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 27487.13936
+    },
+    {
+      "time": "2026-04-29T00:00:00.000Z",
+      "price": 75727,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 36637.97522
+    },
+    {
+      "time": "2026-04-30T00:00:00.000Z",
+      "price": 76300,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 26419.36546
+    },
+    {
+      "time": "2026-05-01T00:00:00.000Z",
+      "price": 78189,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 31644.29709
+    },
+    {
+      "time": "2026-05-02T00:00:00.000Z",
+      "price": 78651,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 11733.12086
+    },
+    {
+      "time": "2026-05-03T00:00:00.000Z",
+      "price": 78533,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 16606.35953
+    },
+    {
+      "time": "2026-05-04T00:00:00.000Z",
+      "price": 79803,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 49250.04107
+    },
+    {
+      "time": "2026-05-05T00:00:00.000Z",
+      "price": 80862,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 34018.30236
+    },
+    {
+      "time": "2026-05-06T00:00:00.000Z",
+      "price": 81401,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 35339.48691
+    },
+    {
+      "time": "2026-05-07T00:00:00.000Z",
+      "price": 79992,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 32877.26535
+    },
+    {
+      "time": "2026-05-08T00:00:00.000Z",
+      "price": 80152,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 27810.90901
+    },
+    {
+      "time": "2026-05-09T00:00:00.000Z",
+      "price": 80620,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 12592.35248
+    },
+    {
+      "time": "2026-05-10T00:00:00.000Z",
+      "price": 82164,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 20225.2642
+    },
+    {
+      "time": "2026-05-11T00:00:00.000Z",
+      "price": 81703,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 27730.56644
+    },
+    {
+      "time": "2026-05-12T00:00:00.000Z",
+      "price": 80459,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 22614.2016
+    },
+    {
+      "time": "2026-05-13T00:00:00.000Z",
+      "price": 79283,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 25467.21269
+    },
+    {
+      "time": "2026-05-14T00:00:00.000Z",
+      "price": 81044,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 36390.98195
+    },
+    {
+      "time": "2026-05-15T00:00:00.000Z",
+      "price": 79063,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 29636.44619
+    },
+    {
+      "time": "2026-05-16T00:00:00.000Z",
+      "price": 78104,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 20239.35861
+    },
+    {
+      "time": "2026-05-17T00:00:00.000Z",
+      "price": 77431,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 19768.96028
+    },
+    {
+      "time": "2026-05-18T00:00:00.000Z",
+      "price": 76984,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 31062.23898
+    },
+    {
+      "time": "2026-05-19T00:00:00.000Z",
+      "price": 76806,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 19921.03082
+    },
+    {
+      "time": "2026-05-20T00:00:00.000Z",
+      "price": 77533,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 24614.33818
+    },
+    {
+      "time": "2026-05-21T00:00:00.000Z",
+      "price": 77587,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 30340.23675
+    },
+    {
+      "time": "2026-05-22T00:00:00.000Z",
+      "price": 75500,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 26664.35184
+    },
+    {
+      "time": "2026-05-23T00:00:00.000Z",
+      "price": 76712,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 33214.86536
+    },
+    {
+      "time": "2026-05-24T00:00:00.000Z",
+      "price": 77015,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 20162.76962
+    },
+    {
+      "time": "2026-05-25T00:00:00.000Z",
+      "price": 77282,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 15808.68639
+    },
+    {
+      "time": "2026-05-26T00:00:00.000Z",
+      "price": 75894,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 32928.43175
+    },
+    {
+      "time": "2026-05-27T00:00:00.000Z",
+      "price": 74420,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 30400.11525
+    },
+    {
+      "time": "2026-05-28T00:00:00.000Z",
+      "price": 73587,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 40933.14557
+    },
+    {
+      "time": "2026-05-29T00:00:00.000Z",
+      "price": 73431,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 32765.70645
+    },
+    {
+      "time": "2026-05-30T00:00:00.000Z",
+      "price": 73853,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 12754.69335
+    },
+    {
+      "time": "2026-05-31T00:00:00.000Z",
+      "price": 73658,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 17573.60901
+    },
+    {
+      "time": "2026-06-01T00:00:00.000Z",
+      "price": 71411,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 52526.47039
+    },
+    {
+      "time": "2026-06-02T00:00:00.000Z",
+      "price": 66732,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 94456.09211
+    },
+    {
+      "time": "2026-06-03T00:00:00.000Z",
+      "price": 64118,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 75735.70932
+    },
+    {
+      "time": "2026-06-04T00:00:00.000Z",
+      "price": 63855,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 104680.49957
+    },
+    {
+      "time": "2026-06-05T00:00:00.000Z",
+      "price": 61033,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 134490.34055
+    },
+    {
+      "time": "2026-06-06T00:00:00.000Z",
+      "price": 60861,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 51481.3049
+    },
+    {
+      "time": "2026-06-07T00:00:00.000Z",
+      "price": 63309,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 47627.23747
+    },
+    {
+      "time": "2026-06-08T00:00:00.000Z",
+      "price": 63058,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 44332.07181
+    },
+    {
+      "time": "2026-06-09T00:00:00.000Z",
+      "price": 61695,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 50944.20417
+    },
+    {
+      "time": "2026-06-10T00:00:00.000Z",
+      "price": 61481,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 49237.45388
+    },
+    {
+      "time": "2026-06-11T00:00:00.000Z",
+      "price": 63621,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 44292.86741
+    },
+    {
+      "time": "2026-06-12T00:00:00.000Z",
+      "price": 63561,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 37754.48898
+    },
+    {
+      "time": "2026-06-13T00:00:00.000Z",
+      "price": 64427,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 16876.1802
+    },
+    {
+      "time": "2026-06-14T00:00:00.000Z",
+      "price": 65720,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 32435.23015
+    },
+    {
+      "time": "2026-06-15T00:00:00.000Z",
+      "price": 66294,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 31782.36608
+    },
+    {
+      "time": "2026-06-16T00:00:00.000Z",
+      "price": 65639,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 28273.23347
+    },
+    {
+      "time": "2026-06-17T00:00:00.000Z",
+      "price": 64470,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 44824.1605
+    },
+    {
+      "time": "2026-06-18T00:00:00.000Z",
+      "price": 62935,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 46655.60819
+    },
+    {
+      "time": "2026-06-19T00:00:00.000Z",
+      "price": 63512,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 24252.73974
+    },
+    {
+      "time": "2026-06-20T00:00:00.000Z",
+      "price": 64276,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 16957.99122
+    },
+    {
+      "time": "2026-06-21T00:00:00.000Z",
+      "price": 63270,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 19643.47614
+    },
+    {
+      "time": "2026-06-22T00:00:00.000Z",
+      "price": 64012,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 42783.49638
+    },
+    {
+      "time": "2026-06-23T00:00:00.000Z",
+      "price": 62706,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 40936.85456
+    },
+    {
+      "time": "2026-06-24T00:00:00.000Z",
+      "price": 61047,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 58854.0202
+    },
+    {
+      "time": "2026-06-25T00:00:00.000Z",
+      "price": 59759,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 66715.92987
+    },
+    {
+      "time": "2026-06-26T00:00:00.000Z",
+      "price": 60074,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 51274.16323
+    },
+    {
+      "time": "2026-06-27T00:00:00.000Z",
+      "price": 59996,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 16629.99543
+    },
+    {
+      "time": "2026-06-28T00:00:00.000Z",
+      "price": 59549,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 22059.112
+    },
+    {
+      "time": "2026-06-29T00:00:00.000Z",
+      "price": 60227,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 40270.31842
+    },
+    {
+      "time": "2026-06-30T00:00:00.000Z",
+      "price": 58603,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 41212.32765
+    },
+    {
+      "time": "2026-07-01T00:00:00.000Z",
+      "price": 60010,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 56506.71653
+    },
+    {
+      "time": "2026-07-02T00:00:00.000Z",
+      "price": 61587,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 49368.74648
+    },
+    {
+      "time": "2026-07-03T00:00:00.000Z",
+      "price": 62576,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 28453.86028
+    },
+    {
+      "time": "2026-07-04T00:00:00.000Z",
+      "price": 63127,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 22779.04395
+    },
+    {
+      "time": "2026-07-05T00:00:00.000Z",
+      "price": 63635,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 18488.56772
+    },
+    {
+      "time": "2026-07-06T00:00:00.000Z",
+      "price": 64054,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 48589.34967
+    },
+    {
+      "time": "2026-07-07T00:00:00.000Z",
+      "price": 63355,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 34462.39672
+    },
+    {
+      "time": "2026-07-08T00:00:00.000Z",
+      "price": 62283,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 32402.9311
+    },
+    {
+      "time": "2026-07-09T00:00:00.000Z",
+      "price": 63225,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 27962.77802
+    },
+    {
+      "time": "2026-07-10T00:00:00.000Z",
+      "price": 64155,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 28920.47794
+    },
+    {
+      "time": "2026-07-11T00:00:00.000Z",
+      "price": 63823,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 11241.95685
+    },
+    {
+      "time": "2026-07-12T00:00:00.000Z",
+      "price": 63780,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 12697.01825
+    },
+    {
+      "time": "2026-07-13T00:00:00.000Z",
+      "price": 62331,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 34587.85431
+    },
+    {
+      "time": "2026-07-14T00:00:00.000Z",
+      "price": 65000,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 42875.76578
+    },
+    {
+      "time": "2026-07-15T00:00:00.000Z",
+      "price": 64738,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 27591.4066
+    },
+    {
+      "time": "2026-07-16T00:00:00.000Z",
+      "price": 63815,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 25997.68696
+    },
+    {
+      "time": "2026-07-17T00:00:00.000Z",
+      "price": 63928,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 30725.18854
+    },
+    {
+      "time": "2026-07-18T00:00:00.000Z",
+      "price": 64827,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 12085.92978
+    },
+    {
+      "time": "2026-07-19T00:00:00.000Z",
+      "price": 64718,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 14070.03176
+    },
+    {
+      "time": "2026-07-20T00:00:00.000Z",
+      "price": 65226,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 42735.9526
+    },
+    {
+      "time": "2026-07-21T00:00:00.000Z",
+      "price": 66527,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 31474.47357
+    },
+    {
+      "time": "2026-07-22T00:00:00.000Z",
+      "price": 66086,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 29966.73257
+    },
+    {
+      "time": "2026-07-23T00:00:00.000Z",
+      "price": 65069,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 26441.77955
+    },
+    {
+      "time": "2026-07-24T00:00:00.000Z",
+      "price": 64123,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 33123.68641
+    },
+    {
+      "time": "2026-07-25T00:00:00.000Z",
+      "price": 64361,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 10980.43849
+    },
+    {
+      "time": "2026-07-26T00:00:00.000Z",
+      "price": 65366,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 11484.93585
+    },
+    {
+      "time": "2026-07-27T00:00:00.000Z",
+      "price": 63736,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 31030.43653
+    },
+    {
+      "time": "2026-07-28T00:00:00.000Z",
+      "price": 63906,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 29752.26288
+    },
+    {
+      "time": "2026-07-29T00:00:00.000Z",
+      "price": 63962,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 37440.03573
+    },
+    {
+      "time": "2026-07-30T00:00:00.000Z",
+      "price": 64754,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 19634.40001
+    },
+    {
+      "time": "2026-07-31T00:00:00.000Z",
+      "price": 62856,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 32795.78462
+    },
+    {
+      "time": "2026-08-01T00:00:00.000Z",
+      "price": 62790,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 10650.99939
+    },
+    {
+      "time": "2026-08-02T00:00:00.000Z",
+      "price": 63556,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 17904.76902
+    },
+    {
+      "time": "2026-08-03T00:00:00.000Z",
+      "price": 63492,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 27435.37873
+    },
+    {
+      "time": "2026-08-04T00:00:00.000Z",
+      "price": 64068,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 27616.09577
+    },
+    {
+      "time": "2026-08-05T00:00:00.000Z",
+      "price": 64625,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 28864.39008
+    },
+    {
+      "time": "2026-08-06T00:00:00.000Z",
+      "price": 64293,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 17755.55911
+    },
+    {
+      "time": "2026-08-07T00:00:00.000Z",
+      "price": 64885,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 20108.99645
+    },
+    {
+      "time": "2026-08-08T00:00:00.000Z",
+      "price": 64933,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 6132.55533
+    },
+    {
+      "time": "2026-08-09T00:00:00.000Z",
+      "price": 64868,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 9909.45533
+    },
+    {
+      "time": "2026-08-10T00:00:00.000Z",
+      "price": 63952,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 25769.0461
+    },
+    {
+      "time": "2026-08-11T00:00:00.000Z",
+      "price": 63560,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 19313.16105
+    },
+    {
+      "time": "2026-08-12T00:00:00.000Z",
+      "price": 63468,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 26665.94726
+    },
+    {
+      "time": "2026-08-13T00:00:00.000Z",
+      "price": 63480,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 28915.61353
+    },
+    {
+      "time": "2026-08-14T00:00:00.000Z",
+      "price": 63029,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 20240.12342
+    },
+    {
+      "time": "2026-08-15T00:00:00.000Z",
+      "price": 63056,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 4847.06736
+    },
+    {
+      "time": "2026-08-16T00:00:00.000Z",
+      "price": 62873,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 9954.24958
+    },
+    {
+      "time": "2026-08-17T00:00:00.000Z",
+      "price": 64494,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 30514.0474
+    },
+    {
+      "time": "2026-08-18T00:00:00.000Z",
+      "price": 64696,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 21414.87999
+    },
+    {
+      "time": "2026-08-19T00:00:00.000Z",
+      "price": 69323,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 83511.20001
+    },
+    {
+      "time": "2026-08-20T00:00:00.000Z",
+      "price": 72996,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 66926.55142
+    },
+    {
+      "time": "2026-08-21T00:00:00.000Z",
+      "price": 78383,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 102197.76664
+    },
+    {
+      "time": "2026-08-22T00:00:00.000Z",
+      "price": 77133,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 38965.15424
+    },
+    {
+      "time": "2026-08-23T00:00:00.000Z",
+      "price": 77804,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 32606.07035
+    },
+    {
+      "time": "2026-08-24T00:00:00.000Z",
+      "price": 78996,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 63277.63267
+    },
+    {
+      "time": "2026-08-25T00:00:00.000Z",
+      "price": 78494,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 69358.6281
+    },
+    {
+      "time": "2026-08-26T00:00:00.000Z",
+      "price": 79026,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 42499.67772
+    },
+    {
+      "time": "2026-08-27T00:00:00.000Z",
+      "price": 80221,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 46169.0087
+    },
+    {
+      "time": "2026-08-28T00:00:00.000Z",
+      "price": 77832,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 57767.59234
+    },
+    {
+      "time": "2026-08-29T00:00:00.000Z",
+      "price": 78228,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 13062.42516
+    },
+    {
+      "time": "2026-08-30T00:00:00.000Z",
+      "price": 77659,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 22234.5881
+    },
+    {
+      "time": "2026-08-31T00:00:00.000Z",
+      "price": 78574,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 32467.98349
+    },
+    {
+      "time": "2026-09-01T00:00:00.000Z",
+      "price": 77419,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 37144.36658
+    },
+    {
+      "time": "2026-09-02T00:00:00.000Z",
+      "price": 77319,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 35463.91474
+    },
+    {
+      "time": "2026-09-03T00:00:00.000Z",
+      "price": 81244,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 57824.75426
+    },
+    {
+      "time": "2026-09-04T00:00:00.000Z",
+      "price": 79623,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 39309.62
+    },
+    {
+      "time": "2026-09-05T00:00:00.000Z",
+      "price": 79804,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 10979.17613
+    },
+    {
+      "time": "2026-09-06T00:00:00.000Z",
+      "price": 80314,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 10660.67221
+    },
+    {
+      "time": "2026-09-07T00:00:00.000Z",
+      "price": 79072,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 20191.05415
+    },
+    {
+      "time": "2026-09-08T00:00:00.000Z",
+      "price": 78417,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 28624.30182
+    },
+    {
+      "time": "2026-09-09T00:00:00.000Z",
+      "price": 78275,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 38151.03017
+    },
+    {
+      "time": "2026-09-10T00:00:00.000Z",
+      "price": 76533,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 31300.12926
+    },
+    {
+      "time": "2026-09-11T00:00:00.000Z",
+      "price": 77180,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 47651.59345
+    },
+    {
+      "time": "2026-09-12T00:00:00.000Z",
+      "price": 77248,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 7896.24887
+    },
+    {
+      "time": "2026-09-13T00:00:00.000Z",
+      "price": 76810,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 16627.33954
+    },
+    {
+      "time": "2026-09-14T00:00:00.000Z",
+      "price": 78182,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 36519.9291
+    },
+    {
+      "time": "2026-09-15T00:00:00.000Z",
+      "price": 75608,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 72422.65617
+    },
+    {
+      "time": "2026-09-16T00:00:00.000Z",
+      "price": 76180,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 40149.34322
+    },
+    {
+      "time": "2026-09-17T00:00:00.000Z",
+      "price": 76396,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 23999.64401
+    },
+    {
+      "time": "2026-09-18T00:00:00.000Z",
+      "price": 80916,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 48525.13946
+    },
+    {
+      "time": "2026-09-19T00:00:00.000Z",
+      "price": 81292,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 16094.34616
+    },
+    {
+      "time": "2026-09-20T00:00:00.000Z",
+      "price": 81221,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 19296.8742
+    },
+    {
+      "time": "2026-09-21T00:00:00.000Z",
+      "price": 86662,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 60404.7103
+    },
+    {
+      "time": "2026-09-22T00:00:00.000Z",
+      "price": 86237,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 32119.75993
+    },
+    {
+      "time": "2026-09-23T00:00:00.000Z",
+      "price": 84366,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 48812.13517
+    },
+    {
+      "time": "2026-09-24T00:00:00.000Z",
+      "price": 84385,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 48632.74712
+    },
+    {
+      "time": "2026-09-25T00:00:00.000Z",
+      "price": 84066,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 34224.13161
+    },
+    {
+      "time": "2026-09-26T00:00:00.000Z",
+      "price": 84413,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 10635.94438
+    },
+    {
+      "time": "2026-09-27T00:00:00.000Z",
+      "price": 84437,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 14529.77049
+    },
+    {
+      "time": "2026-09-28T00:00:00.000Z",
+      "price": 83457,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 32738.90602
+    },
+    {
+      "time": "2026-09-29T00:00:00.000Z",
+      "price": 83418,
+      "funding": null,
+      "openInterestUsd": null,
+      "volumeBase": 3798.89923
+    }
+  ]
+}
