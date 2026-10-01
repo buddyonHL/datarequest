@@ -23,6 +23,7 @@ jobs:
 
           symbols = '''BTC ETH HYPE ZEC SOL NEAR XRP ENA LTC SUI LINK UNI DOGE PEPE AAVE ADA BNB MON ONDO XPL LIT PUMP TAO XMR ARB WLD AVAX TRUMP BCH ASTER WLFI CRV JUP PENGU LDO XLM PENDLE BONK PAXG WIF VIRTUAL OP TRX FIL KAITO PONS ZRO FARTCOIN ICP STRK HBAR SHIB VVV USELESS CASHCAT MORPHO APT DOT SEI POL EIGEN MEGA ZK BERA CHIP GRAM AXS TIA JTO CC PYTH ATOM ZEN LINEA PROVE INJ ETC RENDER ETHFI DASH SPX SKY STBL POPCAT MOODENG S AVNT ZORA AERO AR GRASS MET 2Z CAKE SYRUP STX DYM MNT AZTEC ALGO APEX ENS APE STABLE FLOKI BIO IO 0G HMSTR DYDX CFX BLUR ORDI NOT NIL FET SAGA COMP SKR KAS ACE RUNE POLYX INIT PNUT SAND MELANIA BOME FOGO SUSHI SNX W TRB REZ GALA HEMI YGG IMX PEOPLE ME UMA MERL MANTA GMX NXPC ANIME HYPER LAYER GMT MOVE TNSR XAI MINA GOAT ZETA GAS RSR SUPER CELO NEO IOTA USUAL BRETT ALT BIGTIME AIXBT TURBO BABY NEIRO RESOLV GRIFFAIN LUNC WCT PURR BSV SOPH MEME BANANA'''.split()
           slug_map = {'PEPE':'kpepe','BONK':'kbonk','SHIB':'kshib','NEIRO':'kneiro'}
+          coin_map = {'PEPE':'kPEPE','BONK':'kBONK','SHIB':'kSHIB','NEIRO':'kNEIRO'}
           checkpoints = [
             ('2025-10-01','2025-09-24','2025-09-01'),
             ('2026-01-01','2025-12-25','2025-12-01'),
@@ -48,7 +49,7 @@ jobs:
             for item in payload:
               if isinstance(item, dict):
                 d=p=None
-                for k in ('date','day','time','timestamp','t','open_time','startTime'):
+                for k in ('date','day','time','timestamp','t','T','open_time','startTime'):
                   if k in item: d=normalize_date(item[k]); break
                 for k in ('close','c','price','value','px'):
                   if k in item:
@@ -63,20 +64,39 @@ jobs:
                   except: pass
                 if d and vals: out[d]=vals[3] if len(vals)>=4 else vals[-1]
             return out
+          def official_daily(sym):
+            coin=coin_map.get(sym,sym)
+            start=int(datetime(2026,8,29,tzinfo=timezone.utc).timestamp()*1000)
+            end=int(datetime(2026,10,1,0,1,tzinfo=timezone.utc).timestamp()*1000)
+            body={'type':'candleSnapshot','req':{'coin':coin,'interval':'1d','startTime':start,'endTime':end}}
+            r=requests.post('https://api.hyperliquid.xyz/info',json=body,headers={'User-Agent':'Mozilla/5.0'},timeout=12)
+            r.raise_for_status(); return extract(r.json())
           def fetch_one(sym):
             slug=slug_map.get(sym,sym.lower())
             url=f'https://hyperacademy.io/api/hl/markets/{slug}-perp/history?format=json&from=2025-09-01&to=2026-10-01&granularity=daily'
             try:
               r=requests.get(url,headers={'User-Agent':'Mozilla/5.0'},timeout=12); r.raise_for_status()
-              payload=r.json(); prices=extract(payload); row=[sym]
+              prices=extract(r.json())
+              # HyperAcademy may lag today's just-completed daily point; patch Sep 30 and its reference dates from official HL candles.
+              if '2026-09-30' not in prices:
+                try: prices.update(official_daily(sym))
+                except Exception: pass
+              row=[sym]
               for d,w,m in checkpoints:
                 pd,pw,pm=prices.get(d),prices.get(w),prices.get(m)
                 row += [pd, (pd/pw-1) if pd is not None and pw not in (None,0) else None, (pd/pm-1) if pd is not None and pm not in (None,0) else None]
               err=None if any(x is not None for x in row[1:]) else {'url':url,'note':'no checkpoint values'}
               return sym,row,err
-            except Exception as e: return sym,[sym]+[None]*15,{'url':url,'error':repr(e)}
+            except Exception as e:
+              try:
+                prices=official_daily(sym); row=[sym]
+                for d,w,m in checkpoints:
+                  pd,pw,pm=prices.get(d),prices.get(w),prices.get(m)
+                  row += [pd,(pd/pw-1) if pd is not None and pw not in (None,0) else None,(pd/pm-1) if pd is not None and pm not in (None,0) else None]
+                return sym,row,{'url':url,'hyperacademy_error':repr(e)}
+              except Exception as e2: return sym,[sym]+[None]*15,{'url':url,'error':repr(e),'official_error':repr(e2)}
           results={}; errors={}
-          with ThreadPoolExecutor(max_workers=32) as ex:
+          with ThreadPoolExecutor(max_workers=20) as ex:
             futs={ex.submit(fetch_one,s):s for s in symbols}
             for fut in as_completed(futs):
               sym,row,err=fut.result(); results[sym]=row
@@ -93,5 +113,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add historical_metrics.csv fetch_errors.json
-          git commit -m "Refresh Hyperliquid historical metrics through Oct 1" || exit 0
+          git commit -m "Patch Sep 30 closes from official Hyperliquid candles" || exit 0
           git push
