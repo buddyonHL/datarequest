@@ -41,7 +41,7 @@ jobs:
             return s
           def extract(payload):
             if isinstance(payload, dict):
-              for k in ('data','history','rows','candles','prices','items','result'):
+              for k in ('points','data','history','rows','candles','prices','items','result'):
                 if isinstance(payload.get(k), list):
                   payload=payload[k]; break
             if not isinstance(payload, list): return {}
