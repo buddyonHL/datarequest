@@ -1,0 +1,100 @@
+name: Fetch Hyperliquid History
+on:
+  push:
+    paths:
+      - '.github/workflows/fetch_hyperliquid_history.yml'
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - name: Fetch historical data
+        run: |
+          cat > fetch_history.py <<'PY'
+          import requests, csv, json, time
+          from datetime import datetime, timezone
+
+          symbols = '''BTC ETH HYPE ZEC SOL NEAR XRP ENA LTC SUI LINK UNI DOGE PEPE AAVE ADA BNB MON ONDO XPL LIT PUMP TAO XMR ARB WLD AVAX TRUMP BCH ASTER WLFI CRV JUP PENGU LDO XLM PENDLE BONK PAXG WIF VIRTUAL OP TRX FIL KAITO PONS ZRO FARTCOIN ICP STRK HBAR SHIB VVV USELESS CASHCAT MORPHO APT DOT SEI POL EIGEN MEGA ZK BERA CHIP GRAM AXS TIA JTO CC PYTH ATOM ZEN LINEA PROVE INJ ETC RENDER ETHFI DASH SPX SKY STBL POPCAT MOODENG S AVNT ZORA AERO AR GRASS MET 2Z CAKE SYRUP STX DYM MNT AZTEC ALGO APEX ENS APE STABLE FLOKI BIO IO 0G HMSTR DYDX CFX BLUR ORDI NOT NIL FET SAGA COMP SKR KAS ACE RUNE POLYX INIT PNUT SAND MELANIA BOME FOGO SUSHI SNX W TRB REZ GALA HEMI YGG IMX PEOPLE ME UMA MERL MANTA GMX NXPC ANIME HYPER LAYER GMT MOVE TNSR XAI MINA GOAT ZETA GAS RSR SUPER CELO NEO IOTA USUAL BRETT ALT BIGTIME AIXBT TURBO BABY NEIRO RESOLV GRIFFAIN LUNC WCT PURR BSV SOPH MEME BANANA'''.split()
+          slug_map = {'PEPE':'kpepe','BONK':'kbonk','SHIB':'kshib','NEIRO':'kneiro'}
+          checkpoints = [
+            ('2025-10-01','2025-09-24','2025-09-01'),
+            ('2026-01-01','2025-12-25','2025-12-01'),
+            ('2026-04-01','2026-03-25','2026-03-01'),
+            ('2026-07-01','2026-06-24','2026-06-01'),
+            ('2026-09-30','2026-09-23','2026-08-30'),
+          ]
+          def normalize_date(v):
+            if v is None: return None
+            if isinstance(v,(int,float)):
+              if v > 1e12: v /= 1000
+              return datetime.fromtimestamp(v, timezone.utc).strftime('%Y-%m-%d')
+            s=str(v)
+            if 'T' in s: s=s.split('T')[0]
+            if len(s)>=10 and s[4]=='-' and s[7]=='-': return s[:10]
+            return s
+          def extract(payload):
+            if isinstance(payload, dict):
+              for k in ('data','history','rows','candles','prices','items','result'):
+                if isinstance(payload.get(k), list): payload=payload[k]; break
+            if not isinstance(payload, list): return {}
+            out={}
+            for item in payload:
+              if isinstance(item, dict):
+                d=None; p=None
+                for k in ('date','day','time','timestamp','t','open_time','startTime'):
+                  if k in item: d=normalize_date(item[k]); break
+                for k in ('close','c','price','value','px'):
+                  if k in item:
+                    try: p=float(item[k])
+                    except: pass
+                    break
+                if d and p is not None: out[d]=p
+              elif isinstance(item, (list,tuple)) and len(item)>=2:
+                d=normalize_date(item[0])
+                try: p=float(item[-1] if len(item)>=5 else item[1])
+                except: continue
+                if d: out[d]=p
+            return out
+          headers=['Symbol']
+          for d,_,__ in checkpoints:
+            headers += [f'{d} Daily close', f'{d} 1W %', f'{d} 1M %']
+          errors={}
+          rows=[]
+          sample=None
+          sess=requests.Session(); sess.headers['User-Agent']='Mozilla/5.0'
+          for i,sym in enumerate(symbols):
+            slug=slug_map.get(sym, sym.lower())
+            url=f'https://hyperacademy.io/api/hl/markets/{slug}-perp/history?format=json&from=2025-09-01&to=2026-09-30&granularity=daily'
+            try:
+              r=sess.get(url,timeout=30); r.raise_for_status(); payload=r.json()
+              if sample is None: sample=payload
+              prices=extract(payload)
+              row=[sym]
+              for d,w,m in checkpoints:
+                pd,pw,pm=prices.get(d),prices.get(w),prices.get(m)
+                row += [pd, (pd/pw-1) if pd is not None and pw not in (None,0) else None, (pd/pm-1) if pd is not None and pm not in (None,0) else None]
+              rows.append(row)
+              if not any(x is not None for x in row[1:]): errors[sym]={'url':url,'note':'no checkpoint values','keys': list(prices)[:5]}
+            except Exception as e:
+              rows.append([sym]+[None]*15); errors[sym]={'url':url,'error':repr(e)}
+            time.sleep(0.08)
+          with open('historical_metrics.csv','w',newline='') as f:
+            w=csv.writer(f); w.writerow(headers); w.writerows(rows)
+          with open('fetch_errors.json','w') as f: json.dump(errors,f,indent=2)
+          with open('sample_payload.json','w') as f: json.dump(sample,f,indent=2)
+          print('rows',len(rows),'errors',len(errors))
+          PY
+          python fetch_history.py
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add historical_metrics.csv fetch_errors.json sample_payload.json
+          git commit -m "Fetch Hyperliquid historical metrics" || exit 0
+          git push
